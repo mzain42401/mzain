@@ -125,13 +125,16 @@ border-radius: 100%;
       position: fixed;
       top: 65px;
       right:  -100%;
-      width: 40%;
+      width: 80%;
       height: 90vh;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly ;
+      justify-content: center ;
       background-color: #1F2833;
       transition: all 0.9s ease;
+    }
+    .navbar ul  li{
+        margin: 18px 0px;
     }
   
     .navbar ul.active {
