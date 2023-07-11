@@ -33,7 +33,7 @@ const toggleIcons=()=>{
         <ul ref={navRef} >
           <li><Link to='/'>HOME</Link> </li>
           <li><Link to='/about'>ABOUT</Link> </li>
-          <li><Link to='/contact'>Contact</Link> </li>
+          <li><Link to='/contact'>CONTACT</Link> </li>
 
           {/* <li><a href="">SERVICES</a></li>
           <li><a href="">SKILLS</a></li>
