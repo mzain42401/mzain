@@ -23,7 +23,7 @@ color: #fff;
     border: 2px solid #fff ;
     border-radius: 100%;
     overflow: hidden;
-    margin-right: 15px;
+    margin-right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,6 +120,8 @@ border-radius: 100%;
     
     .navToggleBtn{
         display: block;
+
+    margin-right: 20px;
     }
     .navbar ul  {
       position: fixed;
