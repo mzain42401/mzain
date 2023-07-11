@@ -3,6 +3,8 @@ import { useRef,useState } from 'react';
 import "./navbar.css"
 import { MenuOutlined, CloseOutlined   } from '@ant-design/icons';
 import Image from "../../images/myPic.png"
+import { Link } from 'react-router-dom';
+import Button from '../button/Button';
 
 
 
@@ -29,13 +31,17 @@ const toggleIcons=()=>{
         </div>
 
         <ul ref={navRef} >
-          <li><a href="">HOME</a> </li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">SERVICES</a></li>
+          <li><Link to='/'>HOME</Link> </li>
+          <li><Link to='/about'>ABOUT</Link> </li>
+          <li><Link to='/contact'>Contact</Link> </li>
+
+          {/* <li><a href="">SERVICES</a></li>
           <li><a href="">SKILLS</a></li>
-          <li><a href="">PROJECTS</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li><a href="">PROJECTS</a></li> */}
         </ul>
+        <div>
+          <Button tittle="Logout"/>
+        </div>
         <div className='navToggleBtn' onClick={toggleIcons}>{initial?<MenuOutlined />:<CloseOutlined/>}</div>
       </nav>
     </>

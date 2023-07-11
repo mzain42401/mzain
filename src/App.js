@@ -1,24 +1,34 @@
-import Navbar from "./components/navbar/Navbar";
-// import Home from "./components/home/Home";
-// import About from "./components/about/About"
-// import Services from "./components/services/Services"
-// import Skills from "./components/skills/Skills"
-// import Projects from "./components/projects/Projects"
-// import Contact from "./components/contact/Contact"
+import { BrowserRouter } from "react-router-dom";
+import Main from "./Main";
+import AuthContx from "./context";
+import { useState } from "react";
 
 
 
 function App() {
- 
+  
+  const get =localStorage.getItem("islogIn")==="1"
+ const [auth,setAuth]=useState(get)
+ const onlogIn=()=>{
+  localStorage.setItem("islogIn","1")
+  setAuth(true)
+ }
+ const onlogOut=()=>{
+  localStorage.setItem("islogIn","0")
+
+  setAuth(false)
+ }
   return (
     <>
-   <Navbar />
-   {/* <Home/>
-   <About/>
-   <Services/>
-   <Skills/>
-   <Projects/>
-   <Contact/> */}
+    <AuthContx.Provider value={{
+      islogIn:auth,onlogIn,onlogOut
+      
+    }}>
+    <BrowserRouter> 
+    <Main />
+    </BrowserRouter>
+    </AuthContx.Provider>
+
     </>
   );
 }
