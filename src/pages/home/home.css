@@ -1,9 +1,14 @@
-.container{
-    background-color: #1F2833;
+.homeContainer{
+    background-color: red;
     height: 100Vh;
-    color: #fff;
+    color: #867c7c;
     display: flex;
     justify-content: center;
     align-items: center;
     
+}
+.homeCenterDiv{
+    height: 200px;
+    width: 200px;
+    border: 1px solid wheat;
 }
