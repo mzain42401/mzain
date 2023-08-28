@@ -21,16 +21,22 @@
     justify-content: space-between;
     align-items: center;
     margin: 2rem auto ;
+    flex-wrap: wrap;
+}
+.homeCenterDiv .homeContentDiv{
+  margin-right: 10px;
+  /* background-color: red; */
+  width: 60%;
 }
 .homeCenterDiv .homeContentDiv h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .homeCenterDiv .homeContentDiv p{
     font-size: 20px;
     line-height: 40px;
 }
 .wave {
-    font-size: 50px;
+    font-size: 45px;
     animation-name: wave-animation;
     animation-duration: 2.1s;
     animation-iteration-count: infinite;
@@ -77,14 +83,33 @@
   .homeImageDiv{
     /* border:  2px solid red; */
     padding: 20px;
-    margin-right: 20px;
+    /* background-color: rgb(243, 190, 190); */
+    position: relative;
   }
   .myimage{
-    /* border-top: 2px solid red;
-    border-left: 2px solid red;
-    border-radius: 100%; */
     
+    /* border-top: 2px solid red;
+    border-left: 2px solid green;
+    border-right: 2px solid orange;
+    border-bottom: 2px solid palevioletred;
+    border-radius: 100%; 
+    height: 340px;
+    width: 340px;
+    z-index: -999;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    animation: rotarte 20s linear infinite; */
 
+  }
+  .imag{
+    height: 400px;
+    width:350px;
+  }
+  
+  @keyframes rotarte{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg)}
   }
   .homeContactBtn{
     padding: 12px;
