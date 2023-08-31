@@ -1,12 +1,13 @@
 import React, { useEffect } from "react";
 import "./home.css";
-import image from "../../images/pngegg.png";
+import image from "../../images/ja.png";
 import Aos from "aos";
 import 'aos/dist/aos.css'
-// import { BsGithub } from 'react-icons/bs';
-// import { FaLinkedinIn } from "react-icons/fa";
-// import { MdEmail } from "react-icons/md";
-// import { FaFacebookF } from "react-icons/fa";
+import { BsGithub } from 'react-icons/bs';
+import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import {SiFiverr} from "react-icons/si"
 import Typewriter from "typewriter-effect";
 
 
@@ -19,7 +20,6 @@ const Home = () => {
   })
   return (
     <>
-      {/* <Navbar/> */}
       <div className="homeContainer">
         <div className="homeCenterDiv">
           <div className="homeContentDiv">
@@ -43,15 +43,30 @@ const Home = () => {
                 }}
               />
             </div>
-            <p data-aos="fade-down">
+            <div className="content" data-aos="fade-down">
               A passionate Front-end Developer 🚀 having an experience of
               building Web and Mobile applications with JavaScript / Reactjs /
               Nextjs / TailwindCSS and some other cool libraries and frameworks.
-            </p>
+              <div className="homeLinkDiv">
+                
+                <div className="homeLink"><a className="homeIcon" href="https://github.com/mzain42401" target="_blank"><BsGithub/></a>  </div> 
+                <div className="homeLink"><a className="homeIcon" href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target="_blank"><FaLinkedinIn/></a>  </div> 
+                <div className="homeLink"><a className="homeIcon" href=""><MdEmail/></a>  </div> 
+                <div className="homeLink"><a className="homeIcon" href="https://www.facebook.com/profile.php?id=100068863491633" target="_blank"><FaFacebookF/></a>  </div> 
+                <div className="homeLink"><a className="homeIcon" href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><SiFiverr/></a>  </div> 
+  
 
-            <div >
+
+                
+
+                
+                </div> 
+              <div>
               <button className="homeContactBtn">CONTACT ME</button>
+                </div> 
             </div>
+
+            
           </div>
 
           <div className="homeImageDiv" data-aos="fade-left">

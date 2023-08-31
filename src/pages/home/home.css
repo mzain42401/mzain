@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 *{
   font-family: Montserrat,"Montserrat",sans-serif;
+  /* margin: 0;
+  padding: 0; */
 }
+/* color{
+  #e4d4ed lighth purple
+  #7531b4 dark purple
+  #f6f0f9 light
+  */
+
 .homeContainer{
     /* background-color: red; */
     /* height: 100Vh; */
-    padding: 20px;
+    /* padding: 20px; */
     color: #867c7c;
     /* display: flex;
     justify-content: center;
@@ -14,26 +22,32 @@
 }
 .homeCenterDiv{
     height: max-content;
-    padding: 20px;
+    /* padding: 20px; */
+    /* background-color: red; */
     width: 90%;
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem auto ;
+    margin:0px auto ;
+    padding-top: 80px;
     flex-wrap: wrap;
 }
 .homeCenterDiv .homeContentDiv{
   margin-right: 10px;
   /* background-color: red; */
-  width: 60%;
+  margin-top: 20px;
+  width: 55%;
 }
 .homeCenterDiv .homeContentDiv h1{
     font-size: 45px;
+    margin-bottom: 10px;
+    color: #000;
 }
-.homeCenterDiv .homeContentDiv p{
+.homeCenterDiv .homeContentDiv .content{
     font-size: 20px;
-    line-height: 40px;
+    line-height: 35px;
+    margin-top: 10px;    
 }
 .wave {
     font-size: 45px;
@@ -79,12 +93,15 @@
   }
   .typewriter{
     font-size: 35px;
+    /* margin-bottom: 10px; */
+    color: #7531b4;
   }
   .homeImageDiv{
+    width: 40%;
     /* border:  2px solid red; */
     padding: 20px;
     /* background-color: rgb(243, 190, 190); */
-    position: relative;
+    
   }
   .myimage{
     
@@ -103,28 +120,84 @@
 
   }
   .imag{
-    height: 400px;
-    width:350px;
+    height: 470px;
+    width:490px;
+    filter: drop-shadow(0px 0px 5px #7531b4);
+    
+  animation: moveUpDown 4s infinite alternate;
   }
-  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px); /* Adjust this value for desired distance */
+    }
+  }
   @keyframes rotarte{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg)}
   }
+  .homeLinkDiv{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: red; */
+    margin: 10px 0px;
+    width: max-content;
+  }
+  .homeLink{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-right: 15px;
+    border-radius: 100%;
+    font-size: 20px;
+    background-color: #7531b4;
+    border: 2px solid #7531b4;
+box-shadow: 8px 8px 10px gray;
+    height: 40px;
+    width: 40px;
+   }
+ 
+  .homeIcon{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center
+  }
+ 
+  .homeLink:hover .homeIcon{
+    
+    color: #7531b4;
+  }
+  .homeLink:hover{
+
+    background-color: transparent;
+    border: 2px solid #7531b4;
+    box-shadow: 0px 0px 10px #7531b4;
+  }
   .homeContactBtn{
-    padding: 12px;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 15px;
     border-radius: 4px;
     margin-top: 15px;
     outline: none;
     color: white;
-    border: 2px solid rgb(79 70 229);
-    background-color: rgb(79 70 229);
-    transition-delay: 50ms
+box-shadow: 8px 8px 10px gray;
+
+    border: 2px solid #7531b4;
+    background-color: #7531b4;
+    /* transition-delay: 50ms; */
+    /* margin-top: 50px; */
   }
   .homeContactBtn:hover{
     background-color: transparent;
-    color: rgb(79 70 229);
+    color: #7531b4;
     font-weight: bold;
     cursor: pointer;
+    box-shadow: 0px 0px 10px #7531b4;
+
+
   }
