@@ -63,10 +63,13 @@ align-items: center;
     color: #fff;
     position: relative;
     font-size: 14.5px;
+    padding: 5px;
 }
 .navbar ul li a:hover{
-    color: #66FCF1;
-    transition: all .5s;
+  
+   font-weight: bolder;
+   border-top: 2px solid #fff;
+    /* transition: all .5s; */
     
 }
 

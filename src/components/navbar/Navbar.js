@@ -28,10 +28,10 @@ const Navbar = () => {
 
         <ul ref={navRef}>
           <li>
-            <a href="">SERVICES</a>
+            <a href="">HOME</a>
           </li>
           <li>
-            <a href="">SERVICES</a>
+            <a href="">ABOUT</a>
           </li>
           <li>
             <a href="">SERVICES</a>

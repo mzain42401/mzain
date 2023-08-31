@@ -1,0 +1,128 @@
+.aboutPageContainer{
+    /* background-color: rgb(241, 199, 199); */
+padding: 20px 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.aboutCenterDiv{
+border: 2px solid red;
+display: flex;
+width: 90%;
+
+}
+.myImageDiv{
+border: 2px solid orange;
+    position: relative;
+    z-index: 10;
+}
+.myPersonalImage{
+    filter: drop-shadow(0px 0px 4px #7531b4);
+    position: relative;
+    /* z-index: 10; */
+    /* background-color: red; */
+}
+.aboutIconDiv1{
+    /* position: relative; */
+    /* background-color: red; */
+    z-index: 5;
+    height: 400px ;
+    width: 400px;
+    top: 50%;
+    left: 55%;
+    /* z-index: -1; */
+    transform: translate(-50%,-50%);
+    border-left: 2px solid #7531b4;
+    position: absolute;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+.aboutIcon1{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    left: -5%;
+    border:  2px solid #7531b4;
+    height: 40px;
+    width: 40px;
+    z-index: 12;
+    /* z-index: -1; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: #7531b4;
+font-size: 20px;
+
+    background-color: #fff;
+    transition: all ease 1s;
+
+    /* transform: translate(-50%,-50%); */
+}
+
+.aboutIcon3:hover,.aboutIcon1:hover,.aboutIcon2:hover{
+    background-color: #7531b4;
+box-shadow: 0px 0px 5px #7531b4;
+color: #fff;
+scale: 1.2;
+cursor: pointer;
+}
+.aboutIcon2{
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    border:  2px solid #7531b4;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    /* z-index: -1; */
+color: #7531b4;
+transition: all ease 1s;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* transform: translate(-50%,-50%); */
+}
+
+.aboutIconDiv3{
+    position: relative;
+    /* background-color: red; */
+    z-index: 5;
+    height: 250px ;
+    width: 250px;
+    top: 50%;
+    left: 55%;
+    /* z-index: -1; */
+    transform: translate(-50%,-50%);
+    border-left: 2px solid #7531b4;
+    position: absolute;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+.aboutIcon3{
+    position: absolute;
+transition: all ease 1s;
+
+    top: 25%;
+    left: -5%;
+    border:  2px solid #7531b4;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+color: #7531b4;
+    /* z-index: -1; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* transform: translate(-50%,-50%); */
+}
+
+.aboutMeDiv{
+border: 2px solid palegreen;
+
+}

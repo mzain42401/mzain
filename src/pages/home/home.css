@@ -123,8 +123,11 @@
     height: 470px;
     width:490px;
     filter: drop-shadow(0px 0px 5px #7531b4);
-    
+    transition: all ease 1s;
   animation: moveUpDown 4s infinite alternate;
+  }
+  .imag:hover{
+    scale: 1.02;
   }
   @keyframes moveUpDown {
     0%, 100% {
@@ -159,6 +162,8 @@
 box-shadow: 8px 8px 10px gray;
     height: 40px;
     width: 40px;
+    transition: all ease 1s;
+    cursor: pointer;
    }
  
   .homeIcon{
@@ -173,7 +178,7 @@ box-shadow: 8px 8px 10px gray;
     color: #7531b4;
   }
   .homeLink:hover{
-
+scale: 1.2;
     background-color: transparent;
     border: 2px solid #7531b4;
     box-shadow: 0px 0px 10px #7531b4;
@@ -189,6 +194,7 @@ box-shadow: 8px 8px 10px gray;
 
     border: 2px solid #7531b4;
     background-color: #7531b4;
+    transition: all ease 1s;
     /* transition-delay: 50ms; */
     /* margin-top: 50px; */
   }
@@ -198,6 +204,6 @@ box-shadow: 8px 8px 10px gray;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0px 0px 10px #7531b4;
-
+scale: 1.2;
 
   }

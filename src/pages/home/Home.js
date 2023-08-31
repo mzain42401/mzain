@@ -53,8 +53,7 @@ const Home = () => {
                 <div className="homeLink"><a className="homeIcon" href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target="_blank"><FaLinkedinIn/></a>  </div> 
                 <div className="homeLink"><a className="homeIcon" href=""><MdEmail/></a>  </div> 
                 <div className="homeLink"><a className="homeIcon" href="https://www.facebook.com/profile.php?id=100068863491633" target="_blank"><FaFacebookF/></a>  </div> 
-                
-                <div className="homeLink"><a className="homeIcon" href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><SiFiverr/></a>  </div> <div className="homeLink"><a className="homeIcon" href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><SiFiverr/></a>  </div> <div className="homeLink"><a className="homeIcon" href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><SiFiverr/></a>  </div> 
+                <div className="homeLink"><a className="homeIcon" href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><SiFiverr/></a>  </div> 
   
 
 
