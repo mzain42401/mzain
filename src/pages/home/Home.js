@@ -62,7 +62,9 @@ const Home = () => {
                 
                 </div> 
               <div>
-              <button className="homeContactBtn">CONTACT ME</button>
+              <button className="btn">CONTACT ME</button>
+              <button className="btn">Download CV</button>
+
                 </div> 
             </div>
 

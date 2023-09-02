@@ -183,7 +183,7 @@ scale: 1.2;
     border: 2px solid #7531b4;
     box-shadow: 0px 0px 10px #7531b4;
   }
-  .homeContactBtn{
+  .btn{
     padding: 10px;
     font-size: 15px;
     border-radius: 4px;
@@ -195,10 +195,11 @@ box-shadow: 8px 8px 10px gray;
     border: 2px solid #7531b4;
     background-color: #7531b4;
     transition: all ease 1s;
+    margin: 20px 10px;
     /* transition-delay: 50ms; */
     /* margin-top: 50px; */
   }
-  .homeContactBtn:hover{
+  .btn:hover{
     background-color: transparent;
     color: #7531b4;
     font-weight: bold;
