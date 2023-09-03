@@ -7,7 +7,7 @@
 /* color{
   #e4d4ed lighth purple
   #7531b4 dark purple
-  #f6f0f9 light
+  #f6f0f9 light 
   */
 
 .homeContainer{
@@ -144,8 +144,6 @@
   .homeLinkDiv{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* background-color: red; */
     margin-top: 15px; 
     width: max-content;
   }
@@ -185,8 +183,38 @@ scale: 1.2;
   }
   .btnDiv{
     margin-top:25px;
-    /* background-color: red; */
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
+    
+  }
+
+  @media (max-width: 1114px){
+    .homeCenterDiv{
+    justify-content: center;
+
+    }
+    .homeContentDiv{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .homeLinkDiv{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .btnDiv{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+.content{
+  font-size: 16px !important;
+}
+    .imag{
+      height: 320px;
+      width:350px;
+      margin-top: 30px;
+    }
+
   }

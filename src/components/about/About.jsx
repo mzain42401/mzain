@@ -6,15 +6,15 @@ import Typewriter from "typewriter-effect";
 import Btn from '../Btn/Btn';
 
 const About = () => {
-  const { aboutPageContainer, aboutCenterDiv, myImageDiv, myPersonalImage, aboutMeDiv, aboutTypeWriterdiv, aboutContent, btnDiv } = classes
-  return (
+  const { aboutPageContainer, aboutCenterDiv,aboutMe, myImageDiv, myPersonalImage, aboutMeDiv, aboutTypeWriterdiv, aboutContent, btnDiv,picContentDiv } = classes
+  return ( 
     <>
       <div className={aboutPageContainer}>
         <div className={aboutCenterDiv}>
-          <div>
+          <div className={aboutMe}>
             <h1>Who i am</h1>
           </div>
-          <div>
+          <div className={picContentDiv}>
             <div className={myImageDiv}>
 
               <div className={myPersonalImage}>

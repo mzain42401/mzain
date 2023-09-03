@@ -16,10 +16,12 @@ import Services from './components/services/Services'
 const Main = () => {
   return (
     <>
-      <Home /> 
+    <Header/>
+      <Home />
+      <About /> 
 
-    {/* <Header/>
-      {/* <About /> */}
+    {/* 
+      {/*  */}
       {/* <Projects />
       <Skills />
       <Services />

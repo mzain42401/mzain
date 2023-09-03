@@ -66,7 +66,7 @@ const Home = () => {
               </div>
               <div className={btnDiv}>
                 <Btn />
-                <Btn />
+                
 
 
               </div>

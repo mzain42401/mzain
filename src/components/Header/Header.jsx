@@ -7,6 +7,13 @@ import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 
 
 const Headers = () => {
+  const {
+    navbar,
+    logo,
+    navToggleBtn,
+    active
+  }=classes
+  console.log(classes);
   let [initial, setInitial] = useState(true)
   let navRef = useRef()
 
@@ -17,7 +24,7 @@ const Headers = () => {
 
 
   const showNav = () => {
-    navRef.current.classList.toggle("active")
+    navRef.current.classList.toggle(active)
   }
 
 
@@ -25,8 +32,8 @@ const Headers = () => {
     <>
 
 
-      <nav className="navbar">
-        <div className="logo">zain</div>
+      <nav className={navbar}>
+        <div className={logo}>zain</div>
 
         <ul ref={navRef}>
           <li>
@@ -49,7 +56,7 @@ const Headers = () => {
           </li>
         </ul>
 
-        <div className="navToggleBtn" onClick={toggleIcons}>
+        <div className={navToggleBtn} onClick={toggleIcons}>
           {initial ? <MenuOutlined /> : <CloseOutlined />}
         </div>
       </nav>
