@@ -1,12 +1,12 @@
 import React from 'react'
 import { useRef, useState } from 'react';
-import "./navbar.css"
+import classes from './header.module.css'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 
 
-const Navbar = () => {
+const Headers = () => {
   let [initial, setInitial] = useState(true)
   let navRef = useRef()
 
@@ -57,4 +57,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar
+export default Headers

@@ -1,18 +1,30 @@
 import React from 'react'
-import Home from './pages/home/Home'
-import About from './pages/about/About'
-import Contact from './pages/contact/Contact'
-import Navbar from './components/navbar/Navbar'
+import Home from './components/home/Home'
+import About from './components/about/About'
+import Contact from './components/contact/Contact'
+import Header from './components/Header/Header'
+import Footer from './components/footer/Footer'
+import Projects from './components/projects/Projects'
+import Skills from './components/skills/Skills'
+import Services from './components/services/Services'
+
+
+
+
 
 
 const Main = () => {
   return (
     <>
-    <Navbar/>
-      <Home />
-      <About />
+      <Home /> 
+
+    {/* <Header/>
+      {/* <About /> */}
+      {/* <Projects />
+      <Skills />
+      <Services />
       <Contact />
-          
+          <Footer/> */}
     </>
   )
 }

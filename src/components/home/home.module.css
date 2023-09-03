@@ -23,7 +23,7 @@
 .homeCenterDiv{
     height: max-content;
     /* padding: 20px; */
-    /* background-color: red; */
+    /* background-color: palegreen; */
     width: 90%;
     /* border: 1px solid wheat; */
     display: flex;
@@ -146,7 +146,7 @@
     align-items: center;
     /* justify-content: center; */
     /* background-color: red; */
-    margin: 10px 0px;
+    margin-top: 15px; 
     width: max-content;
   }
   .homeLink{
@@ -154,7 +154,7 @@
     display: flex;
     justify-content: center;
     align-items: center ;
-    margin-right: 15px;
+    margin-right: 20px;
     border-radius: 100%;
     font-size: 20px;
     background-color: #7531b4;
@@ -183,28 +183,10 @@ scale: 1.2;
     border: 2px solid #7531b4;
     box-shadow: 0px 0px 10px #7531b4;
   }
-  .btn{
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 4px;
-    margin-top: 15px;
-    outline: none;
-    color: white;
-box-shadow: 8px 8px 10px gray;
-
-    border: 2px solid #7531b4;
-    background-color: #7531b4;
-    transition: all ease 1s;
-    margin: 20px 10px;
-    /* transition-delay: 50ms; */
-    /* margin-top: 50px; */
-  }
-  .btn:hover{
-    background-color: transparent;
-    color: #7531b4;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0px 0px 10px #7531b4;
-scale: 1.2;
-
+  .btnDiv{
+    margin-top:25px;
+    /* background-color: red; */
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
   }

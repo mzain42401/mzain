@@ -24,8 +24,8 @@ border: 2px solid orange;
     padding: 10px;
 }
 .myPersonalImage{
-    filter: drop-shadow(0px 0px 4px #7531b4);
-
+    /* filter: drop-shadow(0px 0px 4px #7531b4); */
+/* border: 2px solid #7531b4; */
     height: 400px;
     width: 350px;
     overflow: hidden;
@@ -38,6 +38,7 @@ border: 2px solid orange;
 }
 .myPersonalImage>img:hover{
     scale: 1.2;
+    
 }
 .aboutMeDiv{
 border: 2px solid palegreen;
@@ -71,4 +72,7 @@ display: flex;
 
     line-height: 30px;
     margin-top: 10px;
+}
+.btnDiv{
+    margin-top: 20px;
 }

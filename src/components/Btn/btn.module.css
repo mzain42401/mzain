@@ -1,0 +1,20 @@
+.btn{
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    color: white;
+    box-shadow: 8px 8px 10px gray;
+    border: 2px solid #7531b4;
+    border-radius: 4px;
+    background-color: #7531b4;
+    transition: all ease 1s;
+  }
+  .btn:hover{
+    background-color: transparent;
+    color: #7531b4;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 8px 8px 4px gray;
+scale: 1.2;
+
+  }
