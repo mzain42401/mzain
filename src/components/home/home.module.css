@@ -35,9 +35,10 @@
 }
 .homeCenterDiv .homeContentDiv{
   margin-right: 10px;
-  /* background-color: red; */
+  background-color: red;
   margin-top: 20px;
   width: 55%;
+
 }
 .homeCenterDiv .homeContentDiv h1{
     font-size: 45px;
@@ -191,10 +192,12 @@ scale: 1.2;
       font-size: 10px;
     }
     .homeCenterDiv{
+      width: 100%;
     justify-content: center;
-
-    }
-    .homeContentDiv{
+    
+  }
+  .homeContentDiv{
+      border: 2px solid red;
       display: flex;
       flex-direction: column;
       align-items: center;
