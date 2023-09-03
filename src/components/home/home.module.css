@@ -193,7 +193,7 @@ scale: 1.2;
       font-size: 40px;
     }
     .homeCenterDiv{
-    padding-top: 120px;
+    padding-top: 140px;
 
       justify-content: center;
       
@@ -234,7 +234,7 @@ scale: 1.2;
 }
     .imag{
       height: 320px;
-      width:350px;
+      width:340px;
       margin-top: 30px;
       margin-left: 0px;
       display: flex;
