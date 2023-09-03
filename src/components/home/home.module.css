@@ -203,6 +203,9 @@ scale: 1.2;
       justify-content: center;
       width: 100%;
     }
+    .wave{
+      font-size:  28px;
+    }
     .btnDiv{
       display: flex;
       align-items: center;
