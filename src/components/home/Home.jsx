@@ -75,7 +75,7 @@ const Home = () => {
 
           </div>
 
-          <div className={homeImageDiv} data-aos="fade-left">
+          <div className={homeImageDiv} data-aos="fade-up">
             <div>
               <img className={imag} src={image} alt="My pic" />
             </div>

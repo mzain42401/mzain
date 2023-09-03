@@ -24,18 +24,18 @@
     height: max-content;
     /* padding: 20px; */
     /* background-color: palegreen; */
-    width: 90%;
+    width: 100%;
     /* border: 1px solid wheat; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin:0px auto ;
     padding-top: 80px;
     flex-wrap: wrap;
+    width: 90%;
 }
-.homeCenterDiv .homeContentDiv{
-  margin-right: 10px;
-  background-color: red;
+ .homeContentDiv{
+  /* margin-right: 10px; */
   margin-top: 20px;
   width: 55%;
 
@@ -48,6 +48,8 @@
 .homeCenterDiv .homeContentDiv .content{
     font-size: 20px;
     line-height: 35px;
+  /* background-color: palegreen; */
+
     margin-top: 10px;    
 }
 .wave {
@@ -99,7 +101,7 @@
   }
   .homeImageDiv{
     width: 40%;
-    /* border:  2px solid red; */
+    border:  2px solid red;
     padding: 20px;
     /* background-color: rgb(243, 190, 190); */
     
@@ -188,15 +190,15 @@ scale: 1.2;
   }
 
   @media (max-width: 1114px){
-    .homeContentDiv>h1{
-      font-size: 10px;
+    .homeCenterDiv .homeContentDiv h1{
+      font-size: 40px;
     }
     .homeCenterDiv{
-      width: 100%;
-    justify-content: center;
-    
-  }
-  .homeContentDiv{
+      justify-content: center;
+      
+    }
+    .homeContentDiv{
+    width:100%;
       border: 2px solid red;
       display: flex;
       flex-direction: column;
@@ -218,7 +220,6 @@ scale: 1.2;
     .typewriter{
       font-size: 25px;
       width: 100%;
-      background-color: red;
       display: flex;
       justify-content: center;
     }
@@ -229,6 +230,8 @@ scale: 1.2;
       height: 320px;
       width:350px;
       margin-top: 30px;
+      margin-left: 0px;
+      background-color: red;
     }
 
   }
