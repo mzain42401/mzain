@@ -13,7 +13,6 @@ const Headers = () => {
     navToggleBtn,
     active
   }=classes
-  console.log(classes);
   let [initial, setInitial] = useState(true)
   let navRef = useRef()
 
@@ -37,22 +36,22 @@ const Headers = () => {
 
         <ul ref={navRef}>
           <li>
-            <a href="#home">HOME</a>
+            <a onClick={toggleIcons} href="#home">HOME</a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a onClick={toggleIcons}  href="#about">ABOUT</a>
           </li>
           <li>
-            <a href="">SERVICES</a>
+            <a onClick={toggleIcons}  href="">SERVICES</a>
           </li>
           <li>
-            <a href="">SKILLS</a>
+            <a onClick={toggleIcons}  href="">SKILLS</a>
           </li>
           <li>
-            <a href="">PROJECTS</a>
+            <a onClick={toggleIcons}  href="">PROJECTS</a>
           </li>
           <li>
-            <a href="">CONTACT</a>
+            <a onClick={toggleIcons}  href="">CONTACT</a>
           </li>
         </ul>
 
