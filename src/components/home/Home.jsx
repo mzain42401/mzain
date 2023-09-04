@@ -23,7 +23,7 @@ const Home = () => {
   })
   return (
     <>
-      <div className={homeContainer}>
+      <section id="home" className={homeContainer}>
         <div className={homeCenterDiv}>
           <div className={homeContentDiv}>
             <h1 data-aos="fade-right">
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

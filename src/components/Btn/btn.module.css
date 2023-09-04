@@ -1,6 +1,7 @@
 .btn{
     padding: 10px;
     font-size: 15px;
+    width: 100%;
     outline: none;
     color: white;
     box-shadow: 8px 8px 10px gray;

@@ -14,7 +14,7 @@ const About = () => {
   })
   return ( 
     <>
-      <div className={aboutPageContainer}>
+      <section id='about' className={aboutPageContainer}>
         <div className={aboutCenterDiv}>
           <div className={aboutMe} >
             <h1>Who i am</h1>
@@ -65,7 +65,7 @@ const About = () => {
           </div>
 
         </div>
-      </div>
+      </section>
     </>
   )
 }

@@ -37,10 +37,10 @@ const Headers = () => {
 
         <ul ref={navRef}>
           <li>
-            <a href="">HOME</a>
+            <a href="#home">HOME</a>
           </li>
           <li>
-            <a href="">ABOUT</a>
+            <a href="#about">ABOUT</a>
           </li>
           <li>
             <a href="">SERVICES</a>
@@ -52,7 +52,7 @@ const Headers = () => {
             <a href="">PROJECTS</a>
           </li>
           <li>
-            <a href="">SERVICES</a>
+            <a href="">CONTACT</a>
           </li>
         </ul>
 
