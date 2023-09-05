@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Services from './components/services/Services'
+import Counter from './components/counter/Counter'
 
 
 
@@ -19,12 +20,15 @@ const Main = () => {
     <Header/>
       <Home />
       <About /> 
+      {/* <Counter/> */}
+
+      <Services />
+
 
     {/* 
       {/*  */}
       {/* <Projects />
       <Skills />
-      <Services />
       <Contact />
           <Footer/> */}
     </>

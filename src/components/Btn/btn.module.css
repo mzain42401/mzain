@@ -3,14 +3,14 @@
     font-size: 15px;
     width: 100%;
     outline: none;
-    color: white;
-    box-shadow: 8px 8px 10px gray;
-    border: 2px solid #7531b4;
+    color: #fff;
+    /* box-shadow: 8px 8px 10px gray; */
+    border: 2px solid #e0a80d;
     border-radius: 4px;
-    background-color: #7531b4;
+    background-color: transparent;
     transition: all ease 1s;
   }
-  .btn:hover{
+  /* .btn:hover{
     background-color: transparent;
     color: #7531b4;
     font-weight: bold;
@@ -18,4 +18,4 @@
     box-shadow: 8px 8px 4px gray;
 scale: 1.2;
 
-  }
+  } */

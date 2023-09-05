@@ -16,7 +16,7 @@ import Btn from "../Btn/Btn";
 
 // import Navbar from '../../components/navbar/Navbar'
 const Home = () => {
-  const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content, homeLinkDiv, homeIcon, homeLink, homeImageDiv, imag ,btnDiv} = classes
+  const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content, homeLinkDiv, homeIcon, homeLink, homeImageDiv, imag, btnDiv } = classes
 
   useEffect(() => {
     Aos.init({ duration: 1500 })
@@ -32,7 +32,7 @@ const Home = () => {
                 👋🏻
               </span>
             </h1>
-            <div className={typewriter} data-aos="fade-down">
+            <div className={typewriter} data-aos="fade-left">
               <Typewriter
                 options={{
                   strings: [
@@ -42,15 +42,19 @@ const Home = () => {
                   ],
                   autoStart: true,
                   loop: true,
-                  deleteSpeed: 50,
+                  deleteSpeed: 20,
+                  
                 }}
               />
             </div>
-            <div className={content} data-aos="fade-down">
-              A passionate Front-end Developer 🚀 having an experience of
+            <div className={content} data-aos="fade-up">
+              <p>
+              {/* 🚀 */}
+              A passionate Front-end Developer  having an experience of
               building Web and Mobile applications with JavaScript / Reactjs /
               Nextjs / TailwindCSS and some other cool libraries and frameworks.
-              <div className={homeLinkDiv}>
+              </p>
+              {/* <div className={homeLinkDiv}>
 
                 <div className={homeLink}><a className={homeIcon} href="https://github.com/mzain42401" target="_blank"><BsGithub /></a>  </div>
                 <div className={homeLink}><a className={homeIcon} href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target="_blank"><FaLinkedinIn /></a>  </div>
@@ -63,10 +67,10 @@ const Home = () => {
 
 
 
-              </div>
+              </div> */}
               <div className={btnDiv}>
                 <Btn />
-                
+
 
 
               </div>
@@ -75,11 +79,7 @@ const Home = () => {
 
           </div>
 
-          <div className={homeImageDiv} data-aos="fade-up">
-            <div>
-              <img className={imag} src={image} alt="My pic" />
-            </div>
-          </div>
+
         </div>
       </section>
     </>

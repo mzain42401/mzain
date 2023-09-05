@@ -42,7 +42,7 @@ const Headers = () => {
             <a onClick={toggleIcons}  href="#about">ABOUT</a>
           </li>
           <li>
-            <a onClick={toggleIcons}  href="">SERVICES</a>
+            <a onClick={toggleIcons}  href="#services">SERVICES</a>
           </li>
           <li>
             <a onClick={toggleIcons}  href="">SKILLS</a>

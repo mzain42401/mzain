@@ -1,0 +1,6 @@
+.counterSection{
+    background: url('../../images/some-facts-bg.png') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px ;
+}
