@@ -20,9 +20,11 @@ const Main = () => {
     <Header/>
       <Home />
       <About /> 
-      {/* <Counter/> */}
 
       <Services />
+      <Counter/>
+      <About /> 
+      
 
 
     {/* 

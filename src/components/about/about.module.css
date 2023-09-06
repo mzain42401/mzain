@@ -19,6 +19,7 @@ margin-top: 40px;
 .aboutMe{
     margin: 30px 0px 50px 0px;
     font-size: 25px;
+    /* background-color: red; */
 }
 .aboutMeDiv>h1{
     color: #e0a80d;
@@ -29,7 +30,6 @@ margin-top: 40px;
 .picContentDiv{
     display: flex;
 justify-content: center;
-align-items: center;
 flex-wrap: wrap-reverse;
 /* background-color: palegreen; */
 
@@ -68,7 +68,6 @@ top: -20%;
     
 } */
 .aboutMeDiv{
-/* border: 2px solid red; */
 height: 480px;
 /* padding: 10px 20px; */
 width: 50%;
@@ -126,8 +125,7 @@ display: flex;
     }
     .aboutContent{
         font-size: 16px;
-
-
+text-align: center;
     }
     .aboutTypeWriterdiv{
         font-size: 25px;
@@ -154,12 +152,12 @@ display: flex;
         width: 90%;
     }
     .myImageDiv{
-        margin-top: 90px;
+        margin-top: 130px;
     }
 }
 @media (max-width: 499px){
     .aboutMeDiv{
-        width: 100%;
+        width: 96%;
     }
     .myImageDiv{
         margin-top: 130px;
