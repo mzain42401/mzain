@@ -14,9 +14,9 @@ flex-wrap: wrap;
 width: 100%;
 margin-top: 40px;
 
+
 }
 .aboutMe{
-    /* background-color: rebeccapurple; */
     margin: 30px 0px 50px 0px;
     font-size: 25px;
 }
@@ -117,9 +117,10 @@ display: flex;
     .myImageDiv{
         width: 100%;
         margin-top: 20px;
+        margin-bottom: 110px;
     }
     .aboutMeDiv{
-        width: 100%;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -146,8 +147,27 @@ display: flex;
         width: 200px;
     }
     .myPersonalImage{
+        height: 332px;
+        width: 330px;
+    }
+    .myPersonalImage>img{
         height: 400px;
         width: 330px;
     }
-
+}
+@media (max-width: 604px){
+    .aboutMeDiv{
+        width: 90%;
+    }
+    .myImageDiv{
+        margin-top: 90px;
+    }
+}
+@media (max-width: 499px){
+    .aboutMeDiv{
+        width: 100%;
+    }
+    .myImageDiv{
+        margin-top: 130px;
+    }
 }

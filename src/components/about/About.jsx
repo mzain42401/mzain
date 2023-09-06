@@ -27,7 +27,7 @@ const About = () => {
 
               </div>
               <div className={picBottomBtn}>
-
+ 
                 <Btn />
               </div>
             </div>
