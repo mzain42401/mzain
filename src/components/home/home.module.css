@@ -12,7 +12,7 @@
 
 .homeContainer{
 
-    height: 100Vh;
+    height: 100vh;
     /* padding: 20px; */
     color: #867c7c;
     display: flex;
@@ -22,6 +22,7 @@
     /* background-image: ; */
     background: linear-gradient(rgb(54, 55, 55,0.96),rgb(54, 55, 55,0.96  )), url('../../images/istockphoto-1291318636-612x612.jpg') center center no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     
 }
 .homeCenterDiv{

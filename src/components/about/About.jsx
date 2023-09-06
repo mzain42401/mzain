@@ -26,10 +26,7 @@ const About = () => {
                 <img src={MyImage} alt="" />
 
               </div>
-              <div className={picBottomBtn}>
- 
-                <Btn />
-              </div>
+              
             </div>
             <div className={aboutMeDiv} data-aos="fade-up">
 
