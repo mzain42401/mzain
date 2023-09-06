@@ -32,7 +32,7 @@ const Home = () => {
                 👋🏻
               </span>
             </h1>
-            <div className={typewriter} data-aos="fade-left">
+            <div className={typewriter} data-aos="fade-up">
               <Typewriter
                 options={{
                   strings: [
