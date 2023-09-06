@@ -1,3 +1,8 @@
+
+@font-face{
+    font-family: "Montserrat";
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
 .servicesSection{
     background-color: #292929;
     position: relative;
@@ -49,6 +54,8 @@
     font-size: 30px;
     text-align: center;
     margin-top: 40px;
+font-family: "Montserrat";
+
 }
 .servicesCenterDiv{
     margin: 30px auto 0px auto;

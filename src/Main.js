@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Home from './components/home/Home'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
@@ -8,6 +8,7 @@ import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 import Services from './components/services/Services'
 import Counter from './components/counter/Counter'
+import Loding from './components/loading/Loding'
 
 
 
@@ -15,15 +16,26 @@ import Counter from './components/counter/Counter'
 
 
 const Main = () => {
+  const [isloading,setisloading]=useState(true)
+  useEffect(()=>{
+    setTimeout(()=>{
+      setisloading(false)
+    },3000)
+  })
   return (
     <>
-    <Header/>
+
+    {
+      isloading?<Loding/>:<>
+       <Header/>
       <Home />
       <About /> 
 
       <Services />
       <Counter/>
-      <About /> 
+      <About /> </>
+    }
+   
       
 
 

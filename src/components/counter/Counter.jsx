@@ -27,7 +27,7 @@ const Counter = () => {
                   }
                 </h1>
               </ScrollTrigger>
-            </div>
+            </div> 
             <div className={counterName}>
               client
             </div>
@@ -77,7 +77,7 @@ const Counter = () => {
               <ScrollTrigger onEnter={() => setCount(true)} onExit={() => setCount(false)}>
                 <h1>
                   {
-                    count && <> <CountUp start={0} end={100} duration={3} delay={0} /> <span>+</span></>
+                    count && <> <CountUp start={0} end={100} duration={3} delay={0} /></>
                   }
                 </h1>
               </ScrollTrigger>

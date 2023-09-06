@@ -32,7 +32,12 @@ const Headers = () => {
 
 
       <nav className={navbar}>
-        <div className={logo}>zain</div>
+        <div className={logo}>
+          
+        <p><span>&lt;</span> zain ali <span>/&gt;</span> </p>
+
+
+        </div>
 
         <ul ref={navRef}>
           <li>

@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@font-face{
+  font-family: Montserrat;
+  src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+}
 *{
-  font-family: Montserrat,"Montserrat",sans-serif;
+  font-family: "Montserrat",sans-serif;
   /* margin: 0;
   padding: 0; */
 }
@@ -54,6 +58,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Montserrat",sans-serif;
+  font-weight: normal;
 
 }
  .content{
@@ -65,7 +71,8 @@
   align-items: center;
   flex-direction: column;
 color: #fff;
-    margin-top: 20px;   
+    margin-top: 20px;  
+    font-weight: normal; 
     /* background-color: red;  */
 }
 .content>p{

@@ -1,3 +1,7 @@
+@font-face{
+    font-family: "Montserrat";
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
 .aboutPageContainer{
     background-color: #2D2E2E;
 padding: 50px 10px 40px 10px;
@@ -26,6 +30,7 @@ margin-top: 40px;
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 20px;
+    font-family: "Montserrat";
 }
 .picContentDiv{
     display: flex;

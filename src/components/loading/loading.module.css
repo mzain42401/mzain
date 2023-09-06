@@ -1,0 +1,29 @@
+@font-face{
+    font-family: Agutina ;
+    src: url('../../fonts/Agutina\ 400.otf');
+  }
+.loaderDiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2c2c;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #e0a80d;
+    font-family: "Agutina";
+}
+h1>span{
+    color: gray;
+    font-weight: normal;
+}
