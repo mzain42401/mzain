@@ -1,16 +1,14 @@
-import React, { useEffect, useState } from 'react'
-import Home from './components/home/Home'
-import About from './components/about/About'
-import Contact from './components/contact/Contact'
-import Header from './components/Header/Header'
-import Footer from './components/footer/Footer'
-import Projects from './components/projects/Projects'
-import Skills from './components/skills/Skills'
-import Services from './components/services/Services'
-import Counter from './components/counter/Counter'
+import React, { useEffect, useState,Suspense,lazy } from 'react'
 import Loding from './components/loading/Loding'
-
-
+const Header=lazy(()=>import('./components/Header/Header'))
+const Home=lazy(()=>import('./components/home/Home'))
+const About=lazy(()=>import('./components/about/About'))
+const Projects=lazy(()=>import('./components/projects/Projects'))
+const Services=lazy(()=>import('./components/services/Services'))
+const Skills=lazy(()=>import('./components/skills/Skills'))
+const Counter=lazy(()=>import('./components/counter/Counter'))
+const Contact=lazy(()=>import('./components/contact/Contact'))
+const Footer=lazy(()=>import('./components/footer/Footer'))
 
 
 
@@ -20,10 +18,12 @@ const Main = () => {
   useEffect(()=>{
     setTimeout(()=>{
       setisloading(false)
-    },3000)
+    },2000)
   })
   return (
     <>
+    
+<Suspense fallback={<Loding/>}>
 
     {
       isloading?<Loding/>:<>
@@ -36,7 +36,7 @@ const Main = () => {
       <About /> </>
     }
    
-      
+   </Suspense>
 
 
     {/* 
