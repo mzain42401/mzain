@@ -9,7 +9,17 @@
     border-radius: 4px;
     background-color: transparent;
     transition: all ease 1s;
+    cursor: pointer;
   }
+
+  .btn>a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .btn:hover{
+    background-color: #e0a80d;
+  }
+ 
   /* .btn:hover{
     background-color: transparent;
     color: #7531b4;

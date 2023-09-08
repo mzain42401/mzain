@@ -1,22 +1,18 @@
 import React, { useEffect } from "react";
 import classes from './home.module.css'
-import image from "../../images/ja.png";
 import Aos from "aos";
 import 'aos/dist/aos.css'
-import { BsGithub } from 'react-icons/bs';
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import { FaFacebookF } from "react-icons/fa";
-import { SiFiverr } from "react-icons/si"
+
 import Typewriter from "typewriter-effect";
-import Btn from "../Btn/Btn";
+// import Btn from "../Btn/Btn";
+import CVBtn from "../Btn/Btn";
 
 
 
 
 // import Navbar from '../../components/navbar/Navbar'
 const Home = () => {
-  const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content, homeLinkDiv, homeIcon, homeLink, homeImageDiv, imag, btnDiv } = classes
+  const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content,  btnDiv } = classes
 
   useEffect(() => {
     Aos.init({ duration: 1500 })
@@ -69,7 +65,7 @@ const Home = () => {
 
               </div> */}
               <div className={btnDiv}>
-                <Btn />
+                <CVBtn btnValue="Download CV"/>
 
 
 

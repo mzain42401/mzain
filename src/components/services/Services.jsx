@@ -9,10 +9,10 @@ const Services = () => {
     <>
       <section id='services' className={servicesSection}>
         <div className={mainIconDiv}>
-          <div className={iconDiv}> <span><TbBrandFiverr /></span>Fiverr</div>
-          <div className={iconDiv}> <span><FaLinkedinIn /></span>LinkedIn</div>
-          <div className={iconDiv}> <span> <FaFacebookF /></span> Facebook</div>
-          <div className={iconDiv}><span><AiFillGithub /></span> Github</div>
+          <div className={iconDiv}> <a href="https://www.fiverr.com/mzain42401?up_rollout=true" target='_blank'><span><TbBrandFiverr /></span>Fiverr</a></div>
+          <div className={iconDiv}> <a href="https://www.linkedin.com/in/m-zain-ali-3b3293256/"  target='_blank'><span><FaLinkedinIn /></span>LinkedIn</a></div>
+          <div className={iconDiv}> <a href="https://www.facebook.com/profile.php?id=100094551577002" target='_blank'><span> <FaFacebookF /></span> Facebook</a></div>
+          <div className={iconDiv}><a href="https://github.com/mzain42401" target='_blank'><span><AiFillGithub /></span> Github</a></div>
 
 
 

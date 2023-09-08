@@ -28,7 +28,7 @@
     border-radius: 5px;
 
 }
-.iconDiv{
+.iconDiv>a{
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -39,15 +39,17 @@
     border-radius: 5px;
     cursor: pointer;
     width: 75px;
+text-decoration: none;
 
 }
-.iconDiv>span{
+.iconDiv>a>span{
     margin-right: 10px;
+
     font-size: 20px;
     display: flex;
     align-items: center;
 }
-.iconDiv:hover{
+.iconDiv>a:hover{
     box-shadow: 0px 0px 04px #e0a80d;
 
 }

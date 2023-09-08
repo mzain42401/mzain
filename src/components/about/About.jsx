@@ -36,7 +36,7 @@ const About = () => {
                 I can design and develop the custom website according to your requirement or Customize or redesign your existing once by using HTML / CSS / Bootstrap / JavaScript / Reactjs /
                 Nextjs / TailwindCSS and some other cool libraries and frameworks. I serve my expertise for your business effective worldwide Internet exposure at good prices. I will deliver professional and modern Website Design that will promote your brand frequently. I complete all my project with absolute devotion and perfection. I customize Responsive Website regularly and can help customize yours, so you can get your site up and running.</p>
               <div className={btnDiv}>
-                <Btn />
+                <Btn btnValue="Contact Me"/>
                 {/* <Btn /> */}
 
 

@@ -15,15 +15,27 @@
     width: 100%;
     height: 100vh;
 }
-h1{
+
+
+.logo{
+
     margin-top: 50px;
+
+
+}
+.myName{
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: lighter;
     color: #e0a80d;
     font-family: "Agutina";
 }
-h1>span{
+
+
+.signs{
     color: gray;
-    font-weight: normal;
+    font-weight:lighter  ;
+    font-size: 35px;
+    margin: 0px 7px;
+    font-family: sans-serif;
 }

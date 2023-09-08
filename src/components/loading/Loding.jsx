@@ -1,21 +1,23 @@
 import React from 'react'
 import { Bars } from 'react-loader-spinner'
 import classes from './loading.module.css'
+
+
 const Loding = () => {
-    const {loaderDiv}=classes
+    const {loaderDiv,myName,signs,logo}=classes
   return (
     <>
     <div className={loaderDiv}>
     <Bars
-  height="80"
-  width="80"
+  height="90"
+  width="90"
   color="#e0a80d"
   ariaLabel="bars-loading"
   wrapperStyle={{}}
   wrapperClass=""
   visible={true}
 />
-<h1><span>&lt;</span> zain ali <span>/&gt;</span> </h1>
+<div className={logo}><span className={signs}>	&lt;</span><span className={myName}> zain ali </span>  <span className={signs}>/ &gt;</span> </div>
     </div>
      
     </>
