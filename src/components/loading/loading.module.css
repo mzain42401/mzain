@@ -34,7 +34,7 @@
 
 .signs{
     color: gray;
-    font-weight:bold  ;
+    font-weight:lighter  ;
     font-size: 35px;
     margin: 0px 7px;
     font-family: sans-serif;
@@ -44,6 +44,6 @@
         font-size: 43px;}
         .signs{
 
-        margin: 0px 3px;
+        margin: 0px 0px;
         }
 }
