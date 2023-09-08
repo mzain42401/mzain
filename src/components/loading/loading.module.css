@@ -39,3 +39,7 @@
     margin: 0px 7px;
     font-family: sans-serif;
 }
+@media (max-width: 614px){
+    .myName{
+        font-size: 43px;}
+}
