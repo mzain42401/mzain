@@ -23,6 +23,7 @@ const Main = () => {
   return (
     <>
     
+    
 <Suspense fallback={<Loding/>}>
 
     {
@@ -32,8 +33,12 @@ const Main = () => {
       <About /> 
 
       <Services />
-      <Counter/>
-      <About /> </>
+      <Skills />
+      {/* <Counter/> */}
+      <Projects/>
+      <About /> 
+      <Footer/> 
+      </>
     }
    
    </Suspense>
@@ -42,9 +47,8 @@ const Main = () => {
     {/* 
       {/*  */}
       {/* <Projects />
-      <Skills />
       <Contact />
-          <Footer/> */}
+    */}
     </>
   )
 }

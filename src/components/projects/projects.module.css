@@ -1,0 +1,112 @@
+@font-face{
+    font-family: Montserrat;
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+
+
+
+/* projectSection,projectCenterDiv,myProject */
+
+
+.projectSection{
+    background-color: #282828;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Montserrat,sans-serif;
+    padding-top: 100px;
+}
+.projectSection>h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #e0a80d;
+    /* margin-top: 120px; */
+    margin-bottom: 80px;
+}
+.projectCenterDiv{
+    /* background-color: antiquewhite; */
+    /* margin-top: 80px; */
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.myProject{
+    background-color: #171717;
+    border-radius: 6px;
+    width: 300px;
+    margin: 22px;
+    padding: 10px;
+    transition: all ease 1s;
+    box-shadow: 0px 0px 18px rgb(58, 58, 58);
+}
+.myProject:hover{
+    scale: 1.04;
+
+}
+.projectImgDiv{
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.projectImg{
+    height: 200px;
+    transition: all ease 1s;
+width: 100%;
+}
+.projectImg:hover{
+    scale: 1.2;
+}
+.projectTittle{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 9px 0px;
+    color: #e0a80d;
+}
+.projectDiscruption{
+    font-size: 15px;
+    line-height: 24px;
+    margin: 5px 0px;
+    color: #bac8d3;
+}
+.projectDivider{
+    background-color: rgb(56, 56, 56);
+    width: 70%;
+    height: 1px;
+    margin: auto;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+
+}
+.projectBtnDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 10px;
+}
+.projectBtnDiv button{
+    padding: 8px 25px;
+    outline: none;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #e0a80d;
+    
+}
+.projectBtnDiv button a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+.projectBtnDiv button:hover{
+    background-color: #e0a80d;
+    cursor: pointer;
+}
+.projectBtnDiv button:hover a{
+    color: #171717;
+
+}

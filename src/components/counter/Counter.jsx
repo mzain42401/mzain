@@ -10,6 +10,7 @@ const Counter = () => {
   const { counterSection } = classes
   return (
     <>
+    
       <section className={counterSection}>
 
         <div className={counterCenterDiv}>

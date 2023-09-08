@@ -1,0 +1,27 @@
+@font-face{
+    font-family: Montserrat;
+    src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
+  }
+.skillsSection{
+    background: url('../../images/some-facts-bg.png') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillCeneterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.myskill{
+    color: rgb(100, 100, 100);
+    margin: 10px 30px;
+    font-size: 100px;
+}
+.myskill:hover{
+    color: #e0a80d;
+}

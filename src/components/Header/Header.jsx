@@ -49,11 +49,9 @@ const Headers = () => {
           <li>
             <a onClick={toggleIcons}  href="#services">SERVICES</a>
           </li>
+          
           <li>
-            <a onClick={toggleIcons}  href="">SKILLS</a>
-          </li>
-          <li>
-            <a onClick={toggleIcons}  href="">PROJECTS</a>
+            <a onClick={toggleIcons}  href="#projects">PROJECTS</a>
           </li>
           <li>
             <a onClick={toggleIcons}  href="">CONTACT</a>
