@@ -6,7 +6,7 @@
     background: url('../../images/some-facts-bg.png') center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 200px ;
+    /* height: 200px ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 40px 0px;
 }
 .myskill{
     color: rgb(100, 100, 100);
