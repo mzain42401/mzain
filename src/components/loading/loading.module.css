@@ -34,7 +34,7 @@
 
 .signs{
     color: gray;
-    font-weight:lighter  ;
+    font-weight:bold  ;
     font-size: 35px;
     margin: 0px 7px;
     font-family: sans-serif;
@@ -42,4 +42,8 @@
 @media (max-width: 614px){
     .myName{
         font-size: 43px;}
+        .signs{
+
+        margin: 0px 3px;
+        }
 }
