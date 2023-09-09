@@ -171,7 +171,7 @@ padding: 10px 10px;
     border: none;
     border-radius: 6px;
     outline: none;
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 17px;
     background-color:#fff;
     font-family: 'Poppins', sans-serif;
@@ -180,30 +180,35 @@ padding: 10px 10px;
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
   
-   
-    box-shadow: 0px 0px 10px #e0a80d;
+   background-color: transparent;
+   border: 2px solid #e0a80d;
+   color: #bac8d3;
+    /* box-shadow: 0px 0px 10px #e0a80d; */
 
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
 }
-.contact  .buttonArea{
+.contact  .buttonArea>button{
   display: flex;
   align-items: center;
-  background-color: transparent;
+  background-color:transparent;
   /* background: #e0a80d; */
   margin-top: 30px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
-    width: max-content;
+    width: 100%;
+    justify-content: center;
     border-radius: 6px;
     cursor: pointer;
     border: 2px solid #e0a80d;
+
 }
-.contact  .buttonArea:hover{
+
+.contact  .buttonArea>button:hover{
 background-color:#e0a80d ;
 color: #2d2e2e;
 }

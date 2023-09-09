@@ -4,7 +4,7 @@ const CVBtn = ( {btnValue}) => {
     const {btn}=classes
   return (
     <>
-      <button className={btn}><a href="sample.pdf" download="zain.pdf"> {btnValue}</a> </button>
+      <button className={btn}><a href="CV.pdf" download="cv.pdf"> {btnValue}</a> </button>
     </>
   )
 }

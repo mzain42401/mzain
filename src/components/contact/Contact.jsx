@@ -5,6 +5,10 @@ import {FaUserAlt,FaPhoneAlt,FaLocationArrow,FaRegEnvelope} from 'react-icons/fa
 const Contact = () => {
   // const { contactSection, contactCenterDiv, contactFormDiv, contactAddress, nameEmailDiv, subjectDiv,emailDiv,nameDiv } = classes
   const {contact,maxWidth,title,contactContent,column ,text,left,icons,info,row,head,subTitle,fields,field ,name,right,email,textarea,buttonArea}=classes
+  const formSubmited=(e)=>{
+e.preventDefault()
+    alert("zain")
+  }
   return (
     <>
       <section className={contact} id="contact">
@@ -62,7 +66,7 @@ const Contact = () => {
                 </div>
                 <div className={`${column} ${right}`}>
                     <div className={text}>Message me</div>
-                    <form action="#">
+                    <form onSubmit={formSubmited} >
                         <div className={fields}>
                             <div className={`${field} ${name}`}>
                                 <input type="text" placeholder="Name" id="Name" required/>
@@ -78,12 +82,11 @@ const Contact = () => {
                             <textarea cols="30" rows="10" placeholder="Message.." id="Msj" required></textarea>
                         </div>
                         <div className={buttonArea}>
-                            <div id="msjBtn" >Send message</div>
+                            <button type='submit' id="msjBtn" ty >Send message</button>
                         </div>
                     </form>
                     
                 </div>
-                <iframe style={{marginTop:"50px", width:"100%"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14483.341294425476!2d67.0478035785352!3d24.835304620536334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c3765cb8f1f%3A0x1fdb63938983f474!2sD.H.A.%20Phase%202%20Phase%202%20Defence%20Housing%20Authority%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2075500%2C%20Pakistan!5e0!3m2!1sen!2s!4v1694245300278!5m2!1sen!2s" width="600" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
