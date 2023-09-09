@@ -34,9 +34,9 @@ const Main = () => {
 
       <Services />
       <Skills />
-      {/* <Counter/> */}
       <Projects/>
-      <About /> 
+      <Contact />
+     
       <Footer/> 
       </>
     }
@@ -47,7 +47,6 @@ const Main = () => {
     {/* 
       {/*  */}
       {/* <Projects />
-      <Contact />
     */}
     </>
   )
