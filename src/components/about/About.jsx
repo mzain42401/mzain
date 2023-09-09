@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import classes from './about.module.css'
-import MyImage from "../../images//zain.png"
+import MyImage from "../../images/zain.png"
 // import { FaFacebookF } from "react-icons/fa";
 // import Typewriter from "typewriter-effect";
-import Btn from '../Btn/Btn';
+import {Btn} from '../Btn/Btn';
 import Aos from "aos";
 import 'aos/dist/aos.css'
 

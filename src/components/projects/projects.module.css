@@ -51,7 +51,7 @@
 .projectImgDiv{
     height: 200px;
     width: 100%;
-    /* background-color: red; */
+    border: 1px solid #e0a80d;
     overflow: hidden;
 }
 .projectImg{

@@ -1,7 +1,8 @@
 import React from 'react'
 import classes from './services.module.css'
-import { AiOutlineBlock, AiFillGithub } from 'react-icons/ai'
-import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa'
+import {AiFillGithub,AiFillApi } from 'react-icons/ai'
+import { FaLinkedinIn, FaFacebookF,FaCode,FaCubes,FaPenNib ,FaSyncAlt} from 'react-icons/fa'
+import {SiSpringsecurity}  from 'react-icons/si'
 import { TbBrandFiverr } from 'react-icons/tb'
 const Services = () => {
   const { servicesSection, mainIconDiv, iconDiv, servicesCenterDiv, myService, logo, name, discription } = classes
@@ -9,10 +10,10 @@ const Services = () => {
     <>
       <section id='services' className={servicesSection}>
         <div className={mainIconDiv}>
-          <div className={iconDiv}> <a href="https://www.fiverr.com/mzain42401?up_rollout=true" target='_blank'><span><TbBrandFiverr /></span>Fiverr</a></div>
-          <div className={iconDiv}> <a href="https://www.linkedin.com/in/m-zain-ali-3b3293256/"  target='_blank'><span><FaLinkedinIn /></span>LinkedIn</a></div>
-          <div className={iconDiv}> <a href="https://www.facebook.com/profile.php?id=100094551577002" target='_blank'><span> <FaFacebookF /></span> Facebook</a></div>
-          <div className={iconDiv}><a href="https://github.com/mzain42401" target='_blank'><span><AiFillGithub /></span> Github</a></div>
+          <div className={iconDiv}> <a rel="noreferrer" href="https://www.fiverr.com/mzain42401?up_rollout=true" target='_blank'><span><TbBrandFiverr /></span>Fiverr</a></div>
+          <div className={iconDiv}> <a rel="noreferrer" href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target='_blank'><span><FaLinkedinIn /></span>LinkedIn</a></div>
+          <div className={iconDiv}> <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100094551577002" target='_blank'><span> <FaFacebookF /></span> Facebook</a></div>
+          <div className={iconDiv}><a rel="noreferrer" href="https://github.com/mzain42401" target='_blank'><span><AiFillGithub /></span> Github</a></div>
 
 
 
@@ -22,83 +23,86 @@ const Services = () => {
 
         <div className={servicesCenterDiv}>
 
-          <div className={myService}>
-            <div className={logo}>
-
-              <AiOutlineBlock />
-            </div>
-            <div className={name}>
-              resopnsi dseihjn
-            </div>
-            <div className={discription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, illum. Officia incidunt ex, ea reprehenderit placeat vel perferendis provident .
-            </div>
-
-          </div>
-          <div className={myService}>
-            <div className={logo}>
-
-              <AiOutlineBlock />
-            </div>
-            <div className={name}>
-              resopnsi dseihjn
-            </div>
-            <div className={discription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, illum. Officia incidunt ex, ea reprehenderit placeat vel perferendis provident .
-            </div>
-
-          </div><div className={myService}>
-            <div className={logo}>
-
-              <AiOutlineBlock />
-            </div>
-            <div className={name}>
-              resopnsi dseihjn
-            </div>
-            <div className={discription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, illum. Officia incidunt ex, ea reprehenderit placeat vel perferendis provident .
-            </div>
-
-          </div><div className={myService}>
-            <div className={logo}>
-
-              <AiOutlineBlock />
-            </div>
-            <div className={name}>
-              resopnsi dseihjn
-            </div>
-            <div className={discription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, illum. Officia incidunt ex, ea reprehenderit placeat vel perferendis provident .
-            </div>
-
-          </div>
-          <div className={myService}>
-            <div className={logo}>
-
-              <AiOutlineBlock />
-            </div>
-            <div className={name}>
-              resopnsi dseihjn
-            </div>
-            <div className={discription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, illum. Officia incidunt ex, ea reprehenderit placeat vel perferendis provident .
-            </div>
-
-          </div>
-          <div className={myService}>
-            <div className={logo}>
-
-              <AiOutlineBlock />
-            </div>
-            <div className={name}>
-              resopnsi dseihjn
-            </div>
-            <div className={discription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, illum. Officia incidunt ex, ea reprehenderit placeat vel perferendis provident .
-            </div>
-
-          </div>
           
+          <div className={myService}>
+            <div className={logo}>
+
+              <FaCode />
+            </div>
+            <div className={name}>
+              Web Design
+            </div>
+            <div className={discription}>
+              Creating visually appealing layouts, colors, and typography for websites to engage users effectively. Effective web design is crucial for capturing and retaining the attention of online audiences.
+            </div>
+
+          </div>
+          <div className={myService}>
+            <div className={logo}>
+
+              <FaCubes />
+            </div>
+            <div className={name}>
+              Responsive Design
+            </div>
+            <div className={discription}>
+              Ensuring websites adapt seamlessly to various screen sizes and devices.This practice enhances accessibility and usability, as users can interact with the same content regardless of their device, improving overall user satisfaction .
+            </div>
+
+          </div>
+          <div className={myService}>
+            <div className={logo}>
+
+              <FaPenNib />
+            </div>
+            <div className={name}>
+              Testing and Debugging
+            </div>
+            <div className={discription}>
+              Identifying and fixing bugs and issues in frontend code and layout also identifying, and resolving issues or errors that prevent it from functioning as intended.
+            </div>
+
+          </div>
+          <div className={myService}>
+            <div className={logo}>
+
+              <AiFillApi />
+            </div>
+            <div className={name}>
+              API Integration
+            </div>
+            <div className={discription}>
+              Connecting the frontend to external APIs (Application Programming Interfaces) to fetch and display data.Linking frontend with external data sources through APIs for dynamic content.
+            </div>
+
+          </div>
+          <div className={myService}>
+            <div className={logo}>
+
+              <FaSyncAlt />
+            </div>
+            <div className={name}>
+            AJAX Implementation
+            </div>
+            <div className={discription}>
+            Using asynchronous requests to load data dynamically without refreshing the entire page.Enhances web applications' responsiveness and reduces the need for full page reloads,resulting in a  more efficient user experience.
+            </div>
+
+          </div>
+          <div className={myService}>
+            <div className={logo}>
+
+              <SiSpringsecurity />
+            </div>
+            <div className={name}>
+              Next-Auth
+            </div>
+            <div className={discription}>
+              Simplifies the process of  authentication features such as user login, registration, and session management .Provides a flexible and customizable authentication system that supports various authentication providers.
+            </div>
+
+          </div>
+
 
         </div>
       </section>

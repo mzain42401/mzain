@@ -15,7 +15,7 @@ export default CVBtn
   const {btn}=classes
 return (
   <>
-    <button className={btn}> {btnValue} </button>
+    <button className={btn}><a href="#contact"> {btnValue}</a>  </button>
   </>
 )
 }
