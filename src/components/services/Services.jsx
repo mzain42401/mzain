@@ -44,7 +44,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService} data-aos="flip-right">
+          <div className={myService} data-aos="flip-down">
             <div className={logo} >
 
               <FaCubes />
@@ -96,7 +96,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService} data-aos="flip-up">
+          <div className={myService} data-aos="flip-up" >
             <div className={logo}>
 
               <SiSpringsecurity />

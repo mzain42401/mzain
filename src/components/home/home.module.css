@@ -22,12 +22,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #212529; */
+    background-color: #212529;
     /* background-image: ; */
     background: linear-gradient(rgb(54, 55, 55,0.89),rgb(54, 55, 55,0.89  )), url('../../images/Untitled\ design.png') center center no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+    /* background-size: cover; */
+    /* background-position: center; */
     
 }
 .homeCenterDiv{

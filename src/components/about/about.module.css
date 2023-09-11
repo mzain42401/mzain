@@ -8,6 +8,7 @@ padding: 50px 10px 40px 10px;
 display: flex;
 justify-content: center;
 align-items: center;
+position: relative;
 
 }
 .aboutCenterDiv{

@@ -16,6 +16,7 @@
     flex-direction: column;
     font-family: Montserrat,sans-serif;
     padding-top: 100px;
+    position: relative;
 }
 .projectSection>h1{
     font-size: 30px;

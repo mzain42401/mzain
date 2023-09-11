@@ -5,7 +5,8 @@ import 'aos/dist/aos.css'
 
 import Typewriter from "typewriter-effect";
 // import Btn from "../Btn/Btn";
-import CVBtn from "../Btn/Btn";
+import Btn from "../Btn/Btn";
+import ParticleBackground from "../../ParticleBackground";
 
 
 
@@ -20,6 +21,7 @@ const Home = () => {
   return (
     <>
       <section id="home" className={homeContainer}>
+    <ParticleBackground/>
         <div className={homeCenterDiv}>
           <div className={homeContentDiv}>
             <h1 data-aos="fade-right">
@@ -50,22 +52,9 @@ const Home = () => {
               building Web and Mobile applications with JavaScript / Reactjs /
               Nextjs / TailwindCSS and some other cool libraries and frameworks.
               </p>
-              {/* <div className={homeLinkDiv}>
-
-                <div className={homeLink}><a className={homeIcon} href="https://github.com/mzain42401" target="_blank"><BsGithub /></a>  </div>
-                <div className={homeLink}><a className={homeIcon} href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target="_blank"><FaLinkedinIn /></a>  </div>
-                <div className={homeLink}><a className={homeIcon} href=""><MdEmail /></a>  </div>
-                <div className={homeLink}><a className={homeIcon} href="https://www.facebook.com/profile.php?id=100068863491633" target="_blank"><FaFacebookF /></a>  </div>
-                <div className={homeLink}><a className={homeIcon} href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><SiFiverr /></a>  </div>
-
-
-
-
-
-
-              </div> */}
+            
               <div className={btnDiv}>
-                <CVBtn btnValue="Download CV"/>
+              <a href="CV.pdf" download="cv.pdf"> <Btn btnValue="Download CV"/></a>
 
 
 

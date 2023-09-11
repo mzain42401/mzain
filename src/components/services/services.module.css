@@ -109,7 +109,7 @@ font-weight: bolder;
     word-spacing: 3px;
     color: #bac8d3;
 }
-.myService:hover{
+/* .myService:hover{
     scale: 1.05;
     background-color: #e0a80d;
     border: 2px solid  #e0a80d;
@@ -121,7 +121,7 @@ font-weight: bolder;
 }
 .myService:hover .logo{
     color: #171717;
-}
+} */
 
 @media (max-width: 520px){
 
