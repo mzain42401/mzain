@@ -27,6 +27,7 @@
     background: linear-gradient(rgb(54, 55, 55,0.8),rgb(54, 55, 55,0.8  )), url('../../images/Untitled\ design.png') center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
     
 }
 .homeCenterDiv{
