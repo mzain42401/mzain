@@ -6,7 +6,6 @@ import 'aos/dist/aos.css'
 import Typewriter from "typewriter-effect";
 // import Btn from "../Btn/Btn";
 import Btn from "../Btn/Btn";
-import ParticleBackground from "../../ParticleBackground";
 
 
 
@@ -21,7 +20,7 @@ const Home = () => {
   return (
     <>
       <section id="home" className={homeContainer}>
-    <ParticleBackground/>
+    
         <div className={homeCenterDiv}>
           <div className={homeContentDiv}>
             <h1 data-aos="fade-right">
