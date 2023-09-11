@@ -24,7 +24,7 @@
     align-items: center;
     /* background-color: #212529; */
     /* background-image: ; */
-    background: linear-gradient(rgb(54, 55, 55,0.8),rgb(54, 55, 55,0.8  )), url('../../images/Untitled\ design.png') center center no-repeat;
+    background: linear-gradient(rgb(54, 55, 55,0.89),rgb(54, 55, 55,0.89  )), url('../../images/Untitled\ design.png') center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -194,6 +194,9 @@ scale: 1.2;
   @media (max-width: 1114px){
     .homeCenterDiv .homeContentDiv h1{
       font-size: 40px;
+    }
+    .wave{
+      font-size: 35px;
     }
     .homeCenterDiv{
     padding-top: 30px;

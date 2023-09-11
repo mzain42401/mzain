@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from "aos";
+
+import 'aos/dist/aos.css'
 import classes from './services.module.css'
 import {AiFillGithub,AiFillApi } from 'react-icons/ai'
 import { FaLinkedinIn, FaFacebookF,FaCode,FaCubes,FaPenNib ,FaSyncAlt} from 'react-icons/fa'
 import {SiSpringsecurity}  from 'react-icons/si'
 import { TbBrandFiverr } from 'react-icons/tb'
+
 const Services = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  })
   const { servicesSection, mainIconDiv, iconDiv, servicesCenterDiv, myService, logo, name, discription } = classes
   return (
     <>
@@ -24,7 +31,7 @@ const Services = () => {
         <div className={servicesCenterDiv}>
 
           
-          <div className={myService}>
+          <div className={myService} data-aos="flip-right">
             <div className={logo}>
 
               <FaCode />
@@ -37,8 +44,8 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService}>
-            <div className={logo}>
+          <div className={myService} data-aos="flip-right">
+            <div className={logo} >
 
               <FaCubes />
             </div>
@@ -50,7 +57,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService}>
+          <div className={myService} data-aos="flip-right">
             <div className={logo}>
 
               <FaPenNib />
@@ -63,7 +70,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService}>
+          <div className={myService} data-aos="flip-up">
             <div className={logo}>
 
               <AiFillApi />
@@ -76,7 +83,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService}>
+          <div className={myService} data-aos="flip-up">
             <div className={logo}>
 
               <FaSyncAlt />
@@ -89,7 +96,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService}>
+          <div className={myService} data-aos="flip-up">
             <div className={logo}>
 
               <SiSpringsecurity />
