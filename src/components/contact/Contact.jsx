@@ -5,10 +5,13 @@ import {FaUserAlt,FaPhoneAlt,FaLocationArrow,FaRegEnvelope} from 'react-icons/fa
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import Swal from "sweetalert2"
+import {FaLinkedinIn,FaEnvelope,FaFacebookF,FaGithub} from 'react-icons/fa'
+import {SiFiverr} from 'react-icons/si'
+import {GrFacebookOption} from "react-icons/gr"
 
 const Contact = () => {
   // const { contactSection, contactCenterDiv, contactFormDiv, contactAddress, nameEmailDiv, subjectDiv,emailDiv,nameDiv } = classes
-  const {contact,maxWidth,title,contactContent,column ,text,left,icons,info,row,head,subTitle,fields,field ,name,right,email,textarea,buttonArea}=classes
+  const {contact,maxWidth,title,contactContent,column ,text,left,icons,info,row,head,subTitle,fields,field ,name,right,email,textarea,buttonArea,link,icon,iconName}=classes
   // service_1pucuwk
 const form=useRef()
   const sendEmail = (e) => {
@@ -82,6 +85,29 @@ const form=useRef()
                                 <div className={subTitle}>DHA Phase 2, Karachi, Pakistan</div>
                             </div>
                         </div>
+                        <div className={row}>
+
+
+                        <div><a className={link} href="https://github.com/mzain42401" target="_blank"><span className={icon}>
+                <FaGithub /></span>    </a>  </div>
+
+
+                <div><a className={link} href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target="_blank"><span className={icon}>
+                <FaLinkedinIn /></span>   </a>  </div>
+
+
+                <div><a className={link}  href = "mailto: mzain42401@gmail.com" ><span className={icon}>
+                <FaEnvelope /></span>    </a>  </div>
+
+                <div><a className={link} href="https://www.facebook.com/profile.php?id=100094551577002" target="_blank"><span className={icon}>
+                <GrFacebookOption /></span>    </a>  </div>
+
+
+                <div><a className={link} href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><span className={icon}>
+                <SiFiverr /></span>    </a>  </div>
+
+                        </div>
+
                         
                         
                     </div>

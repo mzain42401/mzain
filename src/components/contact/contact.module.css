@@ -215,6 +215,42 @@ background-color:#e0a80d ;
 color: #2d2e2e;
 }
 
+
+.link{
+    /* width: 130px; */
+    color: #e0a80d;
+    text-decoration: none;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+  
+    border-radius: 6px;
+    text-align: center;
+}
+.icon{
+    border: 1px solid #e0a80d;
+    background-color: transparent;
+
+    /* font-size: 100px; */
+margin-top: 50px;
+margin-right: 25px;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* iconFivverr,iconFacebook */
+
+.icon:hover{
+    color: #2d2e2e;
+    background-color: #e0a80d;
+}
+
+
+
 @media (max-width: 995px) {
     .maxWidth{
         padding: 0 50px;
