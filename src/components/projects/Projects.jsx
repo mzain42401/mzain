@@ -1,6 +1,5 @@
 import React from 'react'
 import classes from './projects.module.css'
-import Image from '../../images/me.png'
 import Todo from '../../images/mytodos.jpg'
 import Developer from '../../images/Blue Illustration Laptop Hello Circle Sticker.png'
 

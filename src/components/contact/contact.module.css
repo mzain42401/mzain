@@ -248,7 +248,18 @@ margin-right: 25px;
     color: #2d2e2e;
     background-color: #e0a80d;
 }
-
+.whatsapp{
+    background-color: transparent;
+    border: none;
+    color: #e0a80d;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatsapp:hover{
+    color: #2d2e2e;
+}
 
 
 @media (max-width: 995px) {

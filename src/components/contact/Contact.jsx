@@ -5,13 +5,15 @@ import {FaUserAlt,FaPhoneAlt,FaLocationArrow,FaRegEnvelope} from 'react-icons/fa
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import Swal from "sweetalert2"
-import {FaLinkedinIn,FaEnvelope,FaFacebookF,FaGithub} from 'react-icons/fa'
+import {FaLinkedinIn,FaEnvelope,FaGithub,FaWhatsapp} from 'react-icons/fa'
 import {SiFiverr} from 'react-icons/si'
 import {GrFacebookOption} from "react-icons/gr"
+// import { render } from 'react-dom';
+import ReactWhatsapp from 'react-whatsapp';
 
 const Contact = () => {
   // const { contactSection, contactCenterDiv, contactFormDiv, contactAddress, nameEmailDiv, subjectDiv,emailDiv,nameDiv } = classes
-  const {contact,maxWidth,title,contactContent,column ,text,left,icons,info,row,head,subTitle,fields,field ,name,right,email,textarea,buttonArea,link,icon,iconName}=classes
+  const {contact,maxWidth,title,contactContent,column ,text,left,icons,info,row,head,subTitle,fields,field ,name,right,email,textarea,buttonArea,link,icon,whatsapp}=classes
   // service_1pucuwk
 const form=useRef()
   const sendEmail = (e) => {
@@ -99,12 +101,14 @@ const form=useRef()
                 <div><a className={link}  href = "mailto: mzain42401@gmail.com" ><span className={icon}>
                 <FaEnvelope /></span>    </a>  </div>
 
-                <div><a className={link} href="https://www.facebook.com/profile.php?id=100094551577002" target="_blank"><span className={icon}>
-                <GrFacebookOption /></span>    </a>  </div>
+
+                <div><a className={link} href="tel:+923182660793" target="_blank"><span className={icon}>
+                <FaPhoneAlt /></span>    </a>  </div>
 
 
                 <div><a className={link} href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><span className={icon}>
-                <SiFiverr /></span>    </a>  </div>
+                <ReactWhatsapp className={whatsapp} number="1-212-736-5000" message="Hello World!!!"><FaWhatsapp/></ReactWhatsapp></span>    </a>  </div>
+
 
                         </div>
 
