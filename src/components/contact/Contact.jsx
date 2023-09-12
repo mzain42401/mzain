@@ -107,7 +107,7 @@ const form=useRef()
 
 
                 <div><a className={link} href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><span className={icon}>
-                <ReactWhatsapp className={whatsapp} number="1-212-736-5000" message="Hello World!!!"><FaWhatsapp/></ReactWhatsapp></span>    </a>  </div>
+                <ReactWhatsapp className={whatsapp} number="92-318-266-0793" message="Hello!!!"><FaWhatsapp/></ReactWhatsapp></span>    </a>  </div>
 
 
                         </div>
