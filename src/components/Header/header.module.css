@@ -111,7 +111,7 @@ align-items: center;
       height: 90vh;
       display: flex;
       flex-direction: column;
-      background-color: gray;
+      background-color: #2b2c2c;
       transition: all 0.9s ease;
       padding-top: 20px;
     }
@@ -120,7 +120,7 @@ align-items: center;
        
     }
     .navbar ul li a{
-        color: #1F2833;
+        color: #fff;
 
     }
     .navbar ul li a:hover{

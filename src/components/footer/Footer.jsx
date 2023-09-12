@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <section className={footer}>
-Made by <span>ZAIN ALI</span> | <span>2023</span> 
+<span> MUHAMMAD ZAIN ALI</span> | <span>2023</span> 
       </section>
     </>
   )

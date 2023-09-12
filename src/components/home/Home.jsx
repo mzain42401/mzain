@@ -5,7 +5,9 @@ import 'aos/dist/aos.css'
 
 import Typewriter from "typewriter-effect";
 // import Btn from "../Btn/Btn";
-import Btn from "../Btn/Btn";
+import Btn, { ScrollToTopButton } from "../Btn/Btn";
+
+
 
 
 
@@ -20,7 +22,7 @@ const Home = () => {
   return (
     <>
       <section id="home" className={homeContainer}>
-    
+    <ScrollToTopButton/>
         <div className={homeCenterDiv}>
           <div className={homeContentDiv}>
             <h1 data-aos="fade-right">

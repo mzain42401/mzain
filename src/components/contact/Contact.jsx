@@ -89,6 +89,15 @@ const form=useRef()
                         </div>
                         <div className={row}>
 
+  
+                        <div><span className={icon}>
+                <ReactWhatsapp className={whatsapp} number="92-318-266-0793" message="Hello!!!"><FaWhatsapp/></ReactWhatsapp></span>      </div>
+
+
+
+
+                <div><a className={link} href="tel:+923182660793" target="_blank"><span className={icon}>
+                <FaPhoneAlt /></span>    </a>  </div>
 
                         <div><a className={link} href="https://github.com/mzain42401" target="_blank"><span className={icon}>
                 <FaGithub /></span>    </a>  </div>
@@ -102,12 +111,7 @@ const form=useRef()
                 <FaEnvelope /></span>    </a>  </div>
 
 
-                <div><a className={link} href="tel:+923182660793" target="_blank"><span className={icon}>
-                <FaPhoneAlt /></span>    </a>  </div>
 
-
-                <div><a className={link} href="https://www.fiverr.com/mzain42401?up_rollout=true" target="_blank"><span className={icon}>
-                <ReactWhatsapp className={whatsapp} number="92-318-266-0793" message="Hello!!!"><FaWhatsapp/></ReactWhatsapp></span>    </a>  </div>
 
 
                         </div>
