@@ -3,6 +3,7 @@ import classes from './projects.module.css'
 import Todo from '../../images/mytodos.jpg'
 import Developer from '../../images/Blue Illustration Laptop Hello Circle Sticker.png'
 import Quiz from '../../images/quiz.jpg'
+import calculator from '../../images/calculator.jpg';
 
 
 const cardarry=[
@@ -28,6 +29,15 @@ cardImage:Developer,
     
         github:"https://github.com/mzain42401/quiztest",
         preview:"https://quiz-lyart-xi.vercel.app/"
+          },
+          ,
+          {
+        name:"React Calculator",
+        discription:"Perform complex mathematical calculations with ease using this powerful calculator.",
+    cardImage:calculator,
+    
+        github:"https://github.com/mzain42401/react-calculator",
+        preview:"https://react-calculator-ebon-omega.vercel.app/"
           }
 ]
 
