@@ -1,20 +1,16 @@
 import React from 'react'
 import classes from './contact.module.css'
-import Btn from '../Btn/Btn'
+
 import {FaUserAlt,FaPhoneAlt,FaLocationArrow,FaRegEnvelope} from 'react-icons/fa'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import Swal from "sweetalert2"
 import {FaLinkedinIn,FaEnvelope,FaGithub,FaWhatsapp} from 'react-icons/fa'
-import {SiFiverr} from 'react-icons/si'
-import {GrFacebookOption} from "react-icons/gr"
-// import { render } from 'react-dom';
+
 import ReactWhatsapp from 'react-whatsapp';
 
 const Contact = () => {
-  // const { contactSection, contactCenterDiv, contactFormDiv, contactAddress, nameEmailDiv, subjectDiv,emailDiv,nameDiv } = classes
   const {contact,maxWidth,title,contactContent,column ,text,left,icons,info,row,head,subTitle,fields,field ,name,right,email,textarea,buttonArea,link,icon,whatsapp}=classes
-  // service_1pucuwk
 const form=useRef()
   const sendEmail = (e) => {
   
@@ -109,15 +105,7 @@ const form=useRef()
 
                 <div><a className={link}  href = "mailto: mzain42401@gmail.com" ><span className={icon}>
                 <FaEnvelope /></span>    </a>  </div>
-
-
-
-
-
                         </div>
-
-                        
-                        
                     </div>
                 </div>
                 <div className={`${column} ${right}`}>
@@ -170,25 +158,3 @@ export default Contact
 
 
 
-
-
-{/* <section id='contact' className={contactSection}>
-        <h1>Contact</h1>
-        <div className={contactCenterDiv}>
-          <div className={contactFormDiv}>
-            <div className={nameEmailDiv}>
-              
-              <div className={nameDiv}><input type="text" placeholder='Name' required /></div>
-              
-              <div className={emailDiv}><input type="email" placeholder='Email' required /></div>
-               </div>
-            <div className={subjectDiv}><input type="text" placeholder='Subject' required /></div>
-            <div><textarea placeholder='Message' cols="30" rows="10"></textarea></div>
-            <div><Btn btnValue={"Send Now!"} /></div>
-          </div>
-          <div className={contactAddress}>
-
-          </div>
-
-        </div>
-      </section> */}

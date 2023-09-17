@@ -2,9 +2,6 @@ import React from 'react'
 import { useRef, useState } from 'react';
 import classes from './header.module.css'
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
-// import { Link } from 'react-router-dom';
-
-
 
 const Headers = () => {
   const {

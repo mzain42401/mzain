@@ -2,17 +2,10 @@ import React, { useEffect } from "react";
 import classes from './home.module.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
-
 import Typewriter from "typewriter-effect";
-// import Btn from "../Btn/Btn";
 import Btn, { ScrollToTopButton } from "../Btn/Btn";
 
 
-
-
-
-
-// import Navbar from '../../components/navbar/Navbar'
 const Home = () => {
   const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content,  btnDiv } = classes
 
@@ -55,17 +48,9 @@ const Home = () => {
               </p>
             
               <div className={btnDiv}>
-              <a href="CV.pdf" download="cv.pdf"> <Btn btnValue="Download CV"/></a>
-
-
-
               </div>
             </div>
-
-
           </div>
-
-
         </div>
       </section>
     </>

@@ -24,7 +24,6 @@ margin-top: 40px;
 .aboutMe{
     margin: 30px 0px 50px 0px;
     font-size: 25px;
-    /* background-color: red; */
 }
 .aboutMeDiv>h1{
     color: #e0a80d;
@@ -37,13 +36,8 @@ margin-top: 40px;
     display: flex;
 justify-content: center;
 flex-wrap: wrap-reverse;
-/* background-color: palegreen; */
-
 }
 .myImageDiv{
-/* border: 2px solid orange; */
-    /* position: relative; */
-    /* z-index: 10; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,14 +46,10 @@ flex-wrap: wrap-reverse;
 }
 
 .myPersonalImage{
-    /* filter: drop-shadow(0px 0px 4px #7531b4); */
     height: 350px;
     width: 320px;
     position: relative;
-    /* overflow: hidden; */
-    
     border: 5px solid #fff;
-    /* border-radius: 10px;          */
 }
 .myPersonalImage>img{
     transition: all ease 1s;
@@ -69,25 +59,16 @@ position: absolute;
 top: -20%;
    
 }
-/* .myPersonalImage>img:hover{
-    scale: 1.2;
-    
-} */
 .aboutMeDiv{
 height: 480px;
-/* padding: 10px 20px; */
 width: 50%;
 display: flex;
 margin-bottom: 20px;
-    flex-direction: column;
-    /* background-color: #7531b4; */
-/* font-size: 95px; */
+flex-direction: column;
 }
 
 .aboutTypeWriterdiv{
     display: flex;
-    /* flex-direction: column; */
-    /* background-color: red; */
     margin-top: 20px;
     font-size: 30px;
     color: #7531b4;
@@ -109,14 +90,7 @@ margin-bottom: 20px;
     width: 200px;
 }
 
-/* @media (max-width: 1114px){
-    .myPersonalImage{
-        height: 200px;
-        width: 150px;
-    }
-} */
-
-
+/* responsive */
 
 @media (max-width: 1114px){
     .myImageDiv{

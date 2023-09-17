@@ -3,76 +3,7 @@
     src: url('../../fonts/Montserrat-VariableFont_wght.ttf');
   }
 
-  /* .contactSection{
-    background-color: #2d2e2e;
-  }
-  .contactCenterDiv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap-reverse;
-  }
-.contactFormDiv{
-    width: 44%;
-}
-  .nameEmailDiv{
-width: 100%;
-background-color: red;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 10px;
-  }
-  .nameDiv,.emailDiv{
-      width: 50%;
-    }
-    
-    .nameDiv>input{
-    width: 200px;
-
-        outline: none;
-        border: none;
-        padding: 15px;
-        border-radius: 10px;
-    }
-    
-    .emailDiv{
-      text-align: end;
-  }
-
-  .emailDiv>input{
-    width: 200px;
-    outline: none;
-        border: none;
-        padding: 15px;
-        border-radius: 10px;
-
-}
-
-.subjectDiv{
-    background-color: aqua;
-    width: 100%;
-    padding: 10px 10px;
-
-
-}
-.subjectDiv>input{
-    outline: none;
-        border: none;
-        padding: 15px;
-        border-radius: 10px;
-    width: 100%;
-    background-color: blue;
-
-}
- */
-
-
-
-
-
-
-
+  
  .contact{
     font-family: 'Montserrat', sans-serif;
     background-color: #2d2e2e;
@@ -82,7 +13,6 @@ padding: 10px 10px;
 
 }
  section .title{
-    /* position: relative; */
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
@@ -184,7 +114,6 @@ padding: 10px 10px;
    background-color: transparent;
    border: 2px solid #e0a80d;
    color: #bac8d3;
-    /* box-shadow: 0px 0px 10px #e0a80d; */
 
 }
 .contact .right form .textarea textarea{
@@ -195,7 +124,6 @@ padding: 10px 10px;
   display: flex;
   align-items: center;
   background-color:transparent;
-  /* background: #e0a80d; */
   margin-top: 30px;
     color: #fff;
     font-size: 18px;
@@ -217,21 +145,17 @@ color: #2d2e2e;
 
 
 .link{
-    /* width: 130px; */
     color: #e0a80d;
     text-decoration: none;
     display: flex;
     justify-content:start;
     align-items: center;
-  
     border-radius: 6px;
     text-align: center;
 }
 .icon{
     border: 1px solid #e0a80d;
     background-color: transparent;
-
-    /* font-size: 100px; */
 margin-top: 50px;
 margin-right: 25px;
     padding: 10px;
@@ -242,7 +166,6 @@ margin-right: 25px;
     justify-content: center;
     align-items: center;
 }
-/* iconFivverr,iconFacebook */
 
 .icon:hover{
     color: #2d2e2e;
@@ -293,9 +216,7 @@ margin-right: 25px;
     .contact .right form .email{
         margin: 0;
     }
-    /* .right form .error-box{
-       width: 150px;
-    } */
+   
 }
 
     

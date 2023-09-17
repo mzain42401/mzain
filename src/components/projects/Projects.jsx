@@ -2,6 +2,8 @@ import React from 'react'
 import classes from './projects.module.css'
 import Todo from '../../images/mytodos.jpg'
 import Developer from '../../images/Blue Illustration Laptop Hello Circle Sticker.png'
+import Quiz from '../../images/quiz.jpg'
+
 
 const cardarry=[
   {
@@ -18,7 +20,15 @@ cardImage:Developer,
 
     github:"https://github.com/mzain42401/My_Porfolio",
     preview:"https://mzain.vercel.app/"
-      }
+      },
+      {
+        name:"Quiz App",
+        discription:"Designed for testing and enhancing knowledge through interactive quizzes and trivia questions.",
+    cardImage:Quiz,
+    
+        github:"https://github.com/mzain42401/quiztest",
+        preview:"https://quiz-lyart-xi.vercel.app/"
+          }
 ]
 
 
