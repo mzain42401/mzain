@@ -11,8 +11,8 @@ const cardarry=[
 name:"To-Do APP",
 discription:" Digital task manager, allowing users to add tasks, set due dates, prioritize items, mark tasks as completed.",
 cardImage:Todo,
-github:"https://github.com/mzain42401/todo-web",
-preview:"https://mz-todo.vercel.app/"
+github:"https://github.com/mzain42401/reactTodo",
+preview:"https://react-todo-zeta-two.vercel.app/"
   },
   {
     name:"Developer Portfolio",
