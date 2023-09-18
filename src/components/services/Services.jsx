@@ -18,7 +18,7 @@ const Services = () => {
       <section id='services' className={servicesSection}>
         <div className={mainIconDiv}>
           <div className={iconDiv}> <a rel="noreferrer" href="https://www.fiverr.com/mzain42401?up_rollout=true" target='_blank'><span><TbBrandFiverr /></span>Fiverr</a></div>
-          <div className={iconDiv}> <a rel="noreferrer" href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target='_blank'><span><FaLinkedinIn /></span>LinkedIn</a></div>
+          <div className={iconDiv}> <a rel="noreferrer" href="https://www.linkedin.com/in/mzainali-frontend-developer/" target='_blank'><span><FaLinkedinIn /></span>LinkedIn</a></div>
           <div className={iconDiv}> <a rel="noreferrer" href="https://www.facebook.com/profile.php?id=100094551577002" target='_blank'><span> <FaFacebookF /></span> Facebook</a></div>
           <div className={iconDiv}><a rel="noreferrer" href="https://github.com/mzain42401" target='_blank'><span><AiFillGithub /></span> Github</a></div>
 

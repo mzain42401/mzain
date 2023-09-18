@@ -99,7 +99,7 @@ const form=useRef()
                 <FaGithub /></span>    </a>  </div>
 
 
-                <div><a className={link} href="https://www.linkedin.com/in/m-zain-ali-3b3293256/" target="_blank"><span className={icon}>
+                <div><a className={link} href="https://www.linkedin.com/in/mzainali-frontend-developer/" target="_blank"><span className={icon}>
                 <FaLinkedinIn /></span>   </a>  </div>
 
 
