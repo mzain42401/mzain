@@ -6,7 +6,7 @@ import classes from './services.module.css'
 import {AiFillGithub,AiFillApi } from 'react-icons/ai'
 import { FaLinkedinIn,FaCode,FaCubes,FaPenNib ,FaSyncAlt} from 'react-icons/fa'
 import {SiSpringsecurity}  from 'react-icons/si'
-import {BiLogoUpwork} from 'react-icons/bi'
+import {SiUpwork} from 'react-icons/si'
 import { TbBrandFiverr } from 'react-icons/tb'
 
 const Services = () => {
@@ -20,7 +20,7 @@ const Services = () => {
         <div className={mainIconDiv}>
           <div className={iconDiv}> <a rel="noreferrer" href="https://www.fiverr.com/mzain42401?up_rollout=true" target='_blank'><span><TbBrandFiverr /></span>Fiverr</a></div>
           <div className={iconDiv}> <a rel="noreferrer" href="https://www.linkedin.com/in/mzainali-frontend-developer/" target='_blank'><span><FaLinkedinIn /></span>LinkedIn</a></div>
-          <div className={iconDiv}> <a rel="noreferrer" href="https://www.upwork.com/freelancers/~01be2974fad9af6487" target='_blank'><span> <BiLogoUpwork /></span> Upwork</a></div>
+          <div className={iconDiv}> <a rel="noreferrer" href="https://www.upwork.com/freelancers/~01be2974fad9af6487" target='_blank'><span> <SiUpwork /></span> Upwork</a></div>
           <div className={iconDiv}><a rel="noreferrer" href="https://github.com/mzain42401" target='_blank'><span><AiFillGithub /></span> Github</a></div>
 
 
