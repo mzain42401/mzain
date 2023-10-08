@@ -169,7 +169,24 @@ scale: 1.2;
     margin-top:35px;
     width: 140px;
   }
-
+  .cvBtn{
+    
+      padding: 10px;
+      font-size: 15px;
+      width: 100%;
+      outline: none;
+      color: #fff;
+      border: 2px solid #e0a80d;
+      border-radius: 4px;
+      background-color: transparent;
+      transition: all ease 1s;
+      cursor: pointer;
+      text-decoration: none;
+   
+  }
+  .cvBtn:hover{
+    background-color: #e0a80d;
+  }
   @media (max-width: 1114px){
     .homeCenterDiv .homeContentDiv h1{
       font-size: 40px;

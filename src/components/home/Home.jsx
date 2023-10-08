@@ -3,11 +3,12 @@ import classes from './home.module.css'
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import Typewriter from "typewriter-effect";
-import Btn, { ScrollToTopButton } from "../Btn/Btn";
+import   { ScrollToTopButton } from "../Btn/Btn";
+import cv from '../../cv/CV.pdf'
 
 
 const Home = () => {
-  const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content,  btnDiv } = classes
+  const { homeContainer, homeCenterDiv, homeContentDiv, wave, typewriter, content,  btnDiv,cvBtn } = classes
 
   useEffect(() => {
     Aos.init({ duration: 1500 })
@@ -48,6 +49,7 @@ const Home = () => {
               </p>
             
               <div className={btnDiv}>
+              <a href={cv} download="CV" className={cvBtn} > Download CV </a>
               </div>
             </div>
           </div>
