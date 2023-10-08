@@ -168,6 +168,9 @@ scale: 1.2;
   .btnDiv{
     margin-top:35px;
     width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .cvBtn{
     
