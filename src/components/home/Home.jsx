@@ -4,7 +4,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import Typewriter from "typewriter-effect";
 import   { ScrollToTopButton } from "../Btn/Btn";
-import cv from '../../cv/CV.pdf'
+import myCV from '../../cv/myCV.pdf'
 
 
 const Home = () => {
@@ -49,7 +49,7 @@ const Home = () => {
               </p>
             
               <div className={btnDiv}>
-              <a href={cv} download="CV" className={cvBtn} > Download CV </a>
+              <a href={myCV} download="CV" className={cvBtn} > Download CV </a>
               </div>
             </div>
           </div>
