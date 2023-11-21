@@ -6,7 +6,6 @@
     background: url('../../images/some-facts-bg.png') center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* height: 200px ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +21,7 @@
 .myskill{
     color: rgb(100, 100, 100);
     margin: 10px 30px;
-    font-size: 100px;
+    font-size: 90px;
 }
 .myskill:hover{
     color: #e0a80d;

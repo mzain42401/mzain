@@ -8,6 +8,7 @@ import { FaLinkedinIn,FaCode,FaCubes,FaPenNib ,FaSyncAlt} from 'react-icons/fa'
 import {SiSpringsecurity}  from 'react-icons/si'
 import {SiUpwork} from 'react-icons/si'
 import { TbBrandFiverr } from 'react-icons/tb'
+import { SiFirebase } from 'react-icons/si'
 
 const Services = () => {
   useEffect(() => {
@@ -87,13 +88,13 @@ const Services = () => {
           <div className={myService} data-aos="flip-up">
             <div className={logo}>
 
-              <FaSyncAlt />
+              <SiFirebase />
             </div>
             <div className={name}>
-            AJAX Implementation
+           Firebase
             </div>
             <div className={discription}>
-            Using asynchronous requests to load data dynamically without refreshing the entire page.Enhances web applications' responsiveness and reduces the need for full page reloads,resulting in a  more efficient user experience.
+            Offering a suite of services including real-time database, authentication, hosting, cloud functions, and more, simplifying the development process and enabling features like real-time updates and seamless user authentication.
             </div>
 
           </div>
