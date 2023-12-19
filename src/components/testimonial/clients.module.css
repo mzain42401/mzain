@@ -86,7 +86,7 @@ font-size: 20px;
     text-align: center;
     margin: 10px 0px;
     font-size: 18px;
-
+color: #bac8d3;
 }
 .leftBtn,.righBtn{
     width: 10%;
@@ -122,5 +122,8 @@ margin: 0px 20px;
     }
     .middle{
         width: 100%;
+    }
+    .mdThird{
+        font-size: 14px;
     }
   }
