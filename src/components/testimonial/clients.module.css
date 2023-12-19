@@ -111,6 +111,16 @@ font-size: 20px;
 }
 @media only screen and (max-width: 600px) {
     .center{
-        width: 98% !important;
+        width: 100% !important;
+    }
+    .leftBtn,.righBtn{
+width: 2%;
+font-size: 20px;
+margin: 0px 20px;
+
+
+    }
+    .middle{
+        width: 100%;
     }
   }
