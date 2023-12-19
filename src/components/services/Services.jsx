@@ -4,7 +4,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import classes from './services.module.css'
 import {AiFillGithub,AiFillApi } from 'react-icons/ai'
-import { FaLinkedinIn,FaCode,FaCubes,FaPenNib ,FaSyncAlt} from 'react-icons/fa'
+import { FaLinkedinIn,FaCode,FaCubes,FaPenNib } from 'react-icons/fa'
 import {SiSpringsecurity}  from 'react-icons/si'
 import {SiUpwork} from 'react-icons/si'
 import { TbBrandFiverr } from 'react-icons/tb'
