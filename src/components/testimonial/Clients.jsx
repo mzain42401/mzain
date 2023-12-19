@@ -3,6 +3,8 @@ import classes from './clients.module.css'
 import { FaAngleLeft, FaAngleRight, FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa";
 import zuhaib from '../../images/zuhaib.jpeg'
 import mudassir from '../../images/mudassir.jpg'
+import huzaifa from '../../images/huzifa.jpg'
+
 
 
 const clientsReviews = [
@@ -17,6 +19,12 @@ const clientsReviews = [
     Img: zuhaib,
     clientRank: "Associate Engineer",
     review: "I highly recommend Zain Ali as a React front-end developer. Their technical skills, problem-solving abilities, and collaborative approach make them an asset to any project."
+  },
+  {
+    clientName: "Huzefa Sheikh",
+    Img: huzaifa,
+    clientRank: "Mern stack developer",
+    review: "I had the pleasure of reviewing Zain's coding work, and I'm impressed. He demonstrated exceptional skill and attention to detail, delivering efficient and creative solutions. I highly recommend Zain for any coding project; he is a true professional."
   }
   
 ]
