@@ -52,7 +52,7 @@ const Clients = () => {
   const { reviewSection, center, leftBtn, righBtn, middle, mdFirst, clientImg, clientName, mdLast, mdSecond, mdThird, rank, testHeading,stars,startNum } = classes
   return (
     <>
-      <div className={testHeading}>Testimonials</div>
+      <div id='testimonial' className={testHeading}>Testimonials</div>
 
       <section className={reviewSection}>
 
