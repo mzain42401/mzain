@@ -31,6 +31,7 @@ const Home = () => {
                   strings: [
                     "Frontend Developer",
                     "Freelancer",
+                    "Chatbot Developer",
                     "UI/UX Designer",
                   ],
                   autoStart: true,
@@ -43,9 +44,10 @@ const Home = () => {
             <div className={content} data-aos="fade-up">
               <p>
               {/* 🚀 */}
-              A passionate Front-end Developer  having an experience of
+              A passionate Front-end Developer 🚀 having an experience of
               building Web and Mobile applications with JavaScript / Reactjs /
               Nextjs / TailwindCSS and some other cool libraries and frameworks.
+              ✨I’m currently learning LLM's, Custom Chatbot  and Genrative AI...🤖
               </p>
             
               <div className={btnDiv}>

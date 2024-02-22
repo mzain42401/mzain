@@ -24,8 +24,7 @@ const About = () => {
             <div className={aboutMeDiv} data-aos="fade-up">
               <h1>About Me</h1>
               <p className={aboutContent}>
-                I can design and develop the custom website according to your requirement or Customize or redesign your existing once by using HTML / CSS / Bootstrap / JavaScript / Reactjs /
-                Nextjs / TailwindCSS and some other cool libraries and frameworks. I serve my expertise for your business effective worldwide Internet exposure at good prices. I will deliver professional and modern Website Design that will promote your brand frequently. I complete all my project with absolute devotion and perfection. I customize Responsive Website regularly and can help customize yours, so you can get your site up and running.</p>
+              🚀 Ready to boost your online presence? I'm your website wizard! From sprucing up existing sites to creating from scratch, I've got the skills. 💻✨ Using HTML, CSS, Bootstrap, JavaScript, Reactjs, Nextjs, TailwindCSS, and more, I'll craft a site that shines worldwide! 💫 Need responsive design? No problem! Your site will dazzle on any device. 📱 Plus, I'm not just about websites—I'm delving into chatbots, generative AI, and LLMs, exploring cutting-edge tech to enhance user interaction! 🤖💬 Let's collaborate and make digital magic! ✨</p>
               <div className={btnDiv}>
                 <a href="#contact">   <Btn btnValue="Contact Me" /></a>
               </div>

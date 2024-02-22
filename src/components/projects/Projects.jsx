@@ -6,12 +6,17 @@ import Quiz from '../../images/quiz.jpg'
 import calculator from '../../images/calculator.jpg';
 import shoping from '../../images/shoping.png';
 import landing from '../../images/landing.jpg';
-
+import wne from '../../images/wne.png'
 
 
 
 const cardarry = [
   {
+    name: "Wne-Electrical",
+    discription: "Build a successful website for an electrical company based in UAE. ",
+    cardImage: wne,
+    preview: "https://wneelectrical.com"
+  },{
     name: "E-commerce Store",
     discription: "Build a successful e-commerce store by strategically selecting a niche and optimizing user experience.",
     cardImage: shoping,

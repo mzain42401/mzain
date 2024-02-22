@@ -1,6 +1,7 @@
 import React, { useEffect, useState,Suspense,lazy } from 'react'
 import Loding from './components/loading/Loding'
 import Clients from './components/testimonial/Clients'
+import Points from './components/points/Points'
 const Header=lazy(()=>import('./components/Header/Header'))
 const Home=lazy(()=>import('./components/home/Home'))
 const About=lazy(()=>import('./components/about/About'))
@@ -36,7 +37,7 @@ const Main = () => {
 <Clients/>
       <Projects/>
       <Contact />
-     
+     {/* <Points/> */}
       <Footer/> 
       </>
     }

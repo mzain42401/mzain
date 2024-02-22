@@ -26,3 +26,16 @@
 .myskill:hover{
     color: #e0a80d;
 }
+.nodejs{
+    color: rgb(100, 100, 100);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 40px;
+    font-size: 180px;
+}
+.nodejs:hover{
+    color: #e0a80d;
+
+}

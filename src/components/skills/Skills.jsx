@@ -1,18 +1,17 @@
 import React from 'react'
 import classes from './skills.module.css'
 import { IoLogoJavascript } from 'react-icons/io'
-import { FaHtml5 } from 'react-icons/fa'
-import { FaCss3Alt } from 'react-icons/fa'
-import { SiTailwindcss } from 'react-icons/si'
-import { FaReact } from 'react-icons/fa'
+import { FaHtml5,FaCss3Alt,FaReact,FaBootstrap,FaGitAlt } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
-import { FaBootstrap } from 'react-icons/fa'
-import { SiFirebase } from 'react-icons/si'
+import { IoLogoFirebase } from "react-icons/io5";
+import { SiDialogflow,SiTypescript,SiTailwindcss } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+
 
 
 
 const skills = () => {
-  const { skillsSection, skillCeneterDiv, myskill } = classes
+  const { skillsSection, skillCeneterDiv, myskill,nodejs } = classes
   return (
     <>
       <section className={skillsSection}>
@@ -20,31 +19,43 @@ const skills = () => {
         <div className={skillCeneterDiv}>
 
          
-          <div className={myskill} >
+          <div className={myskill} title='HTML'>
             <FaHtml5 />
           </div>
-          <div className={myskill} >
+          <div className={myskill} title='CSS'>
             <FaCss3Alt />
           </div>
-          <div className={myskill} >
-            <SiTailwindcss />
+          <div className={myskill} title='TailwindCSS'>
+            <SiTailwindcss title='TailwindCSS' />
           </div>
-          <div className={myskill} >
+          <div className={myskill} title='Bootstrap'>
             <FaBootstrap />
 
           </div>
-          <div className={myskill} >
+          <div className={myskill} title='Javascript'>
             <IoLogoJavascript />
           </div>
-          <div className={myskill} >
+          <div className={myskill}>
+            <SiTypescript title='Typescript'/>
+          </div>
+          <div className={myskill} title='Reactjs'>
             <FaReact />
 
           </div>
-          <div className={myskill} >
+          <div className={myskill} title='Nextjs'>
             <TbBrandNextjs />
           </div>
-          <div className={myskill} >
-            <SiFirebase />
+          <div className={myskill} title='Firebase' >
+            <IoLogoFirebase />
+          </div>
+          <div className={nodejs}>
+            <DiNodejs title='NodeJS'/>
+          </div>
+          <div  className={myskill}  >
+          <SiDialogflow title='Dialogflow'/>
+          </div>
+          <div className={myskill} title='git'>
+            <FaGitAlt/>
           </div>
         </div>
 
