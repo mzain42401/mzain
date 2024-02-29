@@ -6,6 +6,7 @@ import { TbBrandNextjs } from 'react-icons/tb'
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiDialogflow,SiTypescript,SiTailwindcss } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
+import { DiNpm } from "react-icons/di";
 
 
 
@@ -49,11 +50,15 @@ const skills = () => {
             <IoLogoFirebase />
           </div>
           <div className={nodejs}>
-            <DiNodejs title='NodeJS'/>
+            <DiNodejs title='NodeJS and Express JS'/>
+          </div>
+          <div className={myskill} title='npm'>
+            <DiNpm/>
           </div>
           <div  className={myskill}  >
           <SiDialogflow title='Dialogflow'/>
           </div>
+          
           <div className={myskill} title='git'>
             <FaGitAlt/>
           </div>

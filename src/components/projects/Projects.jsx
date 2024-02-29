@@ -7,6 +7,8 @@ import calculator from '../../images/calculator.jpg';
 import shoping from '../../images/shoping.png';
 import landing from '../../images/landing.jpg';
 import wne from '../../images/wne.png'
+import rps from '../../images/rps.jpg'
+
 
 
 
@@ -27,6 +29,12 @@ const cardarry = [
     discription: "Designed for testing and enhancing knowledge through interactive quizzes and trivia questions.",
     cardImage: Quiz,
     preview: "https://quiz-lyart-xi.vercel.app/"
+  },
+  {
+    name: "Rock, Paper, Scissors game",
+    discription: "This Rock, Paper, Scissors game, crafted with React.js, JavaScript, and Tailwind CSS, provides a dynamic and visually appealing experience.",
+    cardImage: rps,
+    preview: "https://rock-paper-scissors-ten-phi.vercel.app/"
   },
   {
     name: "Landing Page",
