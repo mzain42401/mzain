@@ -8,7 +8,7 @@ import shoping from '../../images/shoping.png';
 import landing from '../../images/landing.jpg';
 import wne from '../../images/wne.png'
 import rps from '../../images/rps.jpg'
-
+import TTT from '../../images/tictactoe.png'
 
 
 
@@ -35,6 +35,12 @@ const cardarry = [
     discription: "This Rock, Paper, Scissors game, crafted with React.js, JavaScript, and Tailwind CSS, provides a dynamic and visually appealing experience.",
     cardImage: rps,
     preview: "https://rock-paper-scissors-ten-phi.vercel.app/"
+  },
+  {
+    name: "Tic Tac Toe game",
+    discription: "This Tic Tac Toe game crafted with React.js, JavaScript, and Tailwind CSS, provides a dynamic and visually appealing experience.",
+    cardImage: TTT,
+    preview: "https://tic-tac-toe-game-murex.vercel.app/"
   },
   {
     name: "Landing Page",
@@ -81,7 +87,7 @@ const Projects = () => {
 
                 <div className={container}>
                   <div className={card}>
-                    <div className={front}><img src={elment.cardImage} /></div>
+                    <div className={front}><img src={elment.cardImage} alt='img'/></div>
                     <div className={back}>
                       <div className={myProject}>
                         <div className={projectTittle}>
