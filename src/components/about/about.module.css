@@ -53,10 +53,10 @@ flex-wrap: wrap-reverse;
 }
 .myPersonalImage>img{
     transition: all ease 1s;
-    height: 420px;
+    height: 440px;
     width: 320px;
 position: absolute;
-top: -20%;
+top: -25%;
    
 }
 .aboutMeDiv{

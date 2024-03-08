@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import classes from './about.module.css'
-import MyImage from "../../images/zain.png"
+// import MyImage from "../../images/zain.png"
+import MyImage from "../../images/mylogo.png"
+
 import Btn from '../Btn/Btn';
 import Aos from "aos";
 import 'aos/dist/aos.css'

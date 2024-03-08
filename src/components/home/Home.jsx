@@ -47,7 +47,7 @@ const Home = () => {
               A passionate Front-end Developer 🚀 having an experience of
               building Web and Mobile applications with JavaScript / Reactjs /
               Nextjs / TailwindCSS and some other cool libraries and frameworks.
-              ✨I’m currently learning LLM's, Custom Chatbot  and Genrative AI...🤖
+              ✨I’m currently learning LLM's, Dialogflow, Custom Chatbot  and Genrative AI...🤖
               </p>
             
               <div className={btnDiv}>
