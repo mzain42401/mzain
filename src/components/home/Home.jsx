@@ -44,10 +44,8 @@ const Home = () => {
             <div className={content} data-aos="fade-up">
               <p>
               {/* 🚀 */}
-              A passionate Front-end Developer 🚀 having an experience of
-              building Web and Mobile applications with JavaScript / Reactjs /
-              Nextjs / TailwindCSS and some other cool libraries and frameworks.
-              ✨I’m currently learning LLM's, Dialogflow, Custom Chatbot  and Genrative AI...🤖
+              I'm a versatile developer🚀 proficient in both MERN stack technologies and AI chatbot🤖 development. With a passion for crafting intuitive user experiences,✨ I specialize in leveraging cutting-edge technologies to build innovative solutions that enhance interaction and productivity.
+              
               </p>
             
               <div className={btnDiv}>
