@@ -17,7 +17,7 @@ const cardarry = [
     name: "Wne-Electrical",
     discription: "Build a successful website for an electrical company based in UAE. ",
     cardImage: wne,
-    preview: "https://wneelectrical.com"
+    preview: "https://free-css-iota.vercel.app/"
   },{
     name: "E-commerce Store",
     discription: "Build a successful e-commerce store by strategically selecting a niche and optimizing user experience.",
@@ -59,8 +59,6 @@ const cardarry = [
     name: "Developer Portfolio",
     discription: "It's collection of projects, that showcase a developer's skills, expertise, and experience.",
     cardImage: Developer,
-
-    
     preview: "https://mzain.vercel.app/"
   },
   {
