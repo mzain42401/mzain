@@ -4,11 +4,10 @@ import Aos from "aos";
 import 'aos/dist/aos.css'
 import classes from './services.module.css'
 import {AiFillGithub,AiFillApi } from 'react-icons/ai'
-import { FaLinkedinIn,FaCode,FaCubes,FaPenNib } from 'react-icons/fa'
-import {SiSpringsecurity}  from 'react-icons/si'
-import {SiUpwork} from 'react-icons/si'
+import { FaLinkedinIn,FaCode,FaCubes,FaPenNib,FaRobot,FaGoogle } from 'react-icons/fa'
+import { SiSpringsecurity,SiOpenai,SiFirebase,SiDialogflow ,SiUpwork } from "react-icons/si";
 import { TbBrandFiverr } from 'react-icons/tb'
-import { SiFirebase } from 'react-icons/si'
+
 
 const Services = () => {
   useEffect(() => {
@@ -32,6 +31,58 @@ const Services = () => {
 
         <div className={servicesCenterDiv}>
 
+        <div className={myService} data-aos="flip-right">
+            <div className={logo}>
+
+              <FaRobot />
+            </div>
+            <div className={name}>
+              Chatbot Solution
+            </div>
+            <div className={discription}>
+            I created a chatbot designed to interact with users through natural language. It can answer questions, provide information, and assist with various tasks. The chatbot leverages AI to understand and respond to user inputs effectively.
+            </div>
+
+          </div>
+          <div className={myService} data-aos="flip-right">
+            <div className={logo}>
+
+              <FaGoogle />
+            </div>
+            <div className={name}>
+              Google Gemini
+            </div>
+            <div className={discription}>
+            Google's AI technology for natural language understanding and response generation. It interacts with users, processes their inputs, and provides relevant answers or performs tasks based on their requests.
+            </div>
+
+          </div>
+          <div className={myService} data-aos="flip-right">
+            <div className={logo}>
+
+              <SiOpenai/>
+            </div>
+            <div className={name}>
+              OpenAI ChatGPT
+            </div>
+            <div className={discription}>
+          Leveraging OpenAI's ChatGPT advanced language processing capabilities. This bot can understand and generate human-like text responses and is designed to assist with a wide range of tasks, from answering questions to engaging in conversations.
+            </div>
+
+          </div>
+          <div className={myService} data-aos="flip-up" >
+            <div className={logo}>
+
+              <SiDialogflow />
+            </div>
+            <div className={name}>
+              Dialogflow
+            </div>
+            <div className={discription}>
+            Dialogflow is Google Cloud platform for building conversational AI applications. The bot can understand natural language input, process it, and respond appropriately. It leverages machine learning to improve its interactions over time.
+            </div>
+
+          </div>
           
           <div className={myService} data-aos="flip-right">
             <div className={logo}>
@@ -98,19 +149,7 @@ const Services = () => {
             </div>
 
           </div>
-          <div className={myService} data-aos="flip-up" >
-            <div className={logo}>
-
-              <SiSpringsecurity />
-            </div>
-            <div className={name}>
-              Next-Auth
-            </div>
-            <div className={discription}>
-              Simplifies the process of  authentication features such as user login, registration, and session management .Provides a flexible and customizable authentication system that supports various authentication providers.
-            </div>
-
-          </div>
+          
 
 
         </div>

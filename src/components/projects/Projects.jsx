@@ -8,11 +8,34 @@ import shoping from '../../images/shoping.png';
 import landing from '../../images/landing.jpg';
 import wne from '../../images/wne.png'
 import rps from '../../images/rps.jpg'
-import TTT from '../../images/tictactoe.png'
+import TTT from '../../images/tictactoe.png' 
+import SMITChatabot from '../../images/absd.png'
+import Flight from '../../images/flightreservationbot.png'
+import GFSchatbot from '../../images/GFSchatbot.png'
 
 
 
 const cardarry = [
+  
+  
+  {
+    name: "Student Enrollment Chatbot",
+    discription: "Build a successful AI chatbot for SMIT to enroll student atomatic. ",
+    cardImage: SMITChatabot,
+    preview: "https://www.linkedin.com/posts/mzainali_techinnovation-chatbotdevelopment-dialogflow-activity-7205678206681538560-5aZv?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    name: "Flight Reservation Chatbot",
+    discription: "Build a successful AI chatbot for Flight Reservation. ",
+    cardImage: Flight,
+    preview: "https://www.linkedin.com/posts/mzainali_flightreservation-chatbot-innovation-activity-7202832343793864704-LruV?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    name: "GFS Builder Chatbot",
+    discription: "Build a successful AI chatbot for GFS to buy or sell property. ",
+    cardImage: GFSchatbot,
+    preview: "https://www.linkedin.com/posts/mzainali_techinnovation-chatbotdevelopment-dialogflow-activity-7205678206681538560-5aZv?utm_source=share&utm_medium=member_desktop"
+  },
   {
     name: "Wne-Electrical",
     discription: "Build a successful website for an electrical company based in UAE. ",
