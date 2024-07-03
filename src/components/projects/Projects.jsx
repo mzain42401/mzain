@@ -28,7 +28,7 @@ const cardarry = [
     name: "Flight Reservation Chatbot",
     discription: "Build a successful AI chatbot for Flight Reservation. ",
     cardImage: Flight,
-    preview: "https://www.linkedin.com/posts/mzainali_flightreservation-chatbot-innovation-activity-7202832343793864704-LruV?utm_source=share&utm_medium=member_desktop"
+    preview: "https://firebasestorage.googleapis.com/v0/b/images-51af5.appspot.com/o/Untitled%20design%20(1).mp4?alt=media&token=5ab9ab88-e6fd-4f31-ae4e-c9ad8356090e"
   },
   {
     name: "GFS Builder Chatbot",
