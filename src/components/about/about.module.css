@@ -50,6 +50,7 @@ flex-wrap: wrap-reverse;
     width: 320px;
     position: relative;
     border: 5px solid #fff;
+    filter: drop-shadow(0px 0px 05px #e0a80d);
 }
 .myPersonalImage>img{
     transition: all ease 1s;
