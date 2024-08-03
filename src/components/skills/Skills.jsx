@@ -1,12 +1,13 @@
 import React from 'react'
 import classes from './skills.module.css'
 import { IoLogoJavascript } from 'react-icons/io'
-import { FaHtml5,FaCss3Alt,FaReact,FaBootstrap,FaGitAlt } from 'react-icons/fa'
+import { FaHtml5,FaCss3Alt,FaPython,FaReact,FaBootstrap,FaGitAlt } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiDialogflow,SiTypescript,SiTailwindcss } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { DiNpm } from "react-icons/di";
+
 
 
 
@@ -35,6 +36,10 @@ const skills = () => {
           </div>
           <div className={myskill} title='Javascript'>
             <IoLogoJavascript />
+          </div>
+          <div className={myskill} title='Javascript'>
+           
+          <FaPython/>
           </div>
           <div className={myskill}>
             <SiTypescript title='Typescript'/>
